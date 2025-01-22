@@ -132,7 +132,12 @@ class NeurIPSScraper(OpenReviewScraper):
         return earlier + later
 
     def get_paper_links(self, conference_url: str) -> List[Dict[str, str]]:
-        year = int(conference_url.split(".cc")[1].split("/")[-1])
+        year_base = conference_url.strip().split(".cc")[1].split("/")
+        try:
+            year = int(year_base[-1])
+        except:
+            year = int(year_base[1])
+            
         # use openreview
         if year >= 2021:
             return self._get_paper_links(year)

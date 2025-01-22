@@ -14,7 +14,7 @@ def download_papers(args):
         conferences=args.conferences
     )
 
-def process_papers(args):
+def process_papers(base_path, args):
     if args.quiet:
         logging.getLogger('pypdf').setLevel(logging.ERROR)
 
@@ -30,7 +30,7 @@ def process_papers(args):
         border_style="blue"
     ))
 
-    analyzer = PaperAnalyzer(base_path=args.base_path, years=args.years)
+    analyzer = PaperAnalyzer(base_path=base_path, years=args.years)
     analyzer.analyze_all_papers()
     analyzer.save_results(args.output)
 
@@ -45,6 +45,8 @@ if __name__ == "__main__":
     import argparse
 
     parser = argparse.ArgumentParser(description='ML Paper Downloader')
+    parser.add_argument('--nodownload', action='store_false',
+                      help='Processing without paper downloads')
     parser.add_argument('--start-year', type=int, default=2018,
                         help='Start year for paper collection')
     parser.add_argument('--conferences', nargs='+',
@@ -54,8 +56,6 @@ if __name__ == "__main__":
                         help='Directory to store downloaded papers')
     parser.add_argument('--years', type=int, nargs='+',
                       help='Specific years to analyze (e.g., --years 2018 2019)')
-    parser.add_argument('--base-path', type=str, default="ml_papers/icml",
-                      help='Base path for the ICML papers directory')
     parser.add_argument('--output', type=str, default="paper_analysis_results.json",
                       help='Output file path for the analysis results')
     parser.add_argument('--quiet', action='store_true',
@@ -63,6 +63,11 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
 
-    download_papers(args)
-    process_papers(args)
+    if not args.nodownload:
+        download_papers(args)
+
+    for conf in args.conferences:
+        base_path = args.output_path + f"/{conf}"
+        process_papers(base_path, args)
+        
     #generate_automated_dataset(args)
