@@ -54,13 +54,11 @@ class OpenReviewScraper(ConferenceScraper):
 
     def _get_paper_links(self, year: int) -> List[Dict[str, str]]:
         if year >= self.api_cutoff_year:
-            client = openreview.api.OpenReviewClient(
-                baseurl="https://api2.openreview.net"
-            )
+            client= openreview.api.OpenReviewClient(baseurl='https://api2.openreview.net')
         else:
-            client = openreview.Client(baseurl="https://api.openreview.net")
+            client = openreview.Client(baseurl='https://api.openreview.net')
         venue = self.get_venue(client, year)
-        papers = client.get_all_notes(content={"venueid": venue})
+        papers =  client.get_all_notes(content={'venueid': venue})
         paper_infos = []
         try:
             for paper in papers:
@@ -137,13 +135,31 @@ class NeurIPSScraper(OpenReviewScraper):
             year = int(year_base[-1])
         except:
             year = int(year_base[1])
-            
+
         # use openreview
         if year >= 2021:
             return self._get_paper_links(year)
         # use proceedings
         else:
             papers = []
+            response = self.session.get(conference_url)
+            if response.status_code == 404:
+                    print(f"Conference URL not found: {conference_url}")
+                    return papers
+
+            soup = BeautifulSoup(response.text, "html.parser")
+
+            for paper in soup.find_all("li", class_="none"):
+                    title = paper.a.getText()
+                    pdf_link = paper.a.get("href").title()
+
+                    papers.append(
+                                {
+                                    "title": title,
+                                    "pdf_url": urljoin("https://papers.nips.cc", pdf_link),
+                                    "year": str(year),
+                                }
+                            )
             try:
                 response = self.session.get(conference_url)
                 if response.status_code == 404:

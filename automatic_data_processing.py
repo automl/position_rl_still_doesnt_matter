@@ -45,7 +45,7 @@ if __name__ == "__main__":
     import argparse
 
     parser = argparse.ArgumentParser(description='ML Paper Downloader')
-    parser.add_argument('--nodownload', action='store_false',
+    parser.add_argument('--nodownload', action='store_true',
                       help='Processing without paper downloads')
     parser.add_argument('--start-year', type=int, default=2018,
                         help='Start year for paper collection')
@@ -69,5 +69,5 @@ if __name__ == "__main__":
     for conf in args.conferences:
         base_path = args.output_path + f"/{conf}"
         process_papers(base_path, args)
-        
+
     #generate_automated_dataset(args)
