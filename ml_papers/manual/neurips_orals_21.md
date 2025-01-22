@@ -21,7 +21,7 @@ Abstract: Deep reinforcement learning (RL) algorithms are predominantly evaluate
 
 Research goal: More reliable evaluation in RL research
 Empirical: yes
-Algorithms: DQN-based
+Algorithms: DQN
 Seeds: 100
 Code: yes
 Env: not explicitly, though unsure if Atari 100k is versioned
@@ -35,7 +35,7 @@ Abstract: Reinforcement learning (RL) algorithms assume that users specify tasks
 
 Research goal: RL with examples instead of a reward function
 Empirical: yes
-Algorithms: SAC-based RCE, SQIL, VICE, DAC, ORIL, PURL
+Algorithms: SAC, RCE, SQIL, VICE, DAC, ORIL, PURL
 Seeds: 5
 Code: yes
 Env: dated version on envs in appendix

@@ -14,7 +14,7 @@ def download_papers(args):
         conferences=args.conferences
     )
 
-def process_papers(base_path, args):
+def process_papers(base_path, output_path, args):
     if args.quiet:
         logging.getLogger('pypdf').setLevel(logging.ERROR)
 
@@ -32,14 +32,12 @@ def process_papers(base_path, args):
 
     analyzer = PaperAnalyzer(base_path=base_path, years=args.years)
     analyzer.analyze_all_papers()
-    analyzer.save_results(args.output)
+    analyzer.save_results(output_path)
 
     # Final summary
     console.print("\n[bold green]Analysis Complete![/bold green]")
     console.print(analyzer.generate_stats_table())
 
-def process_papers():
-    pass
 
 if __name__ == "__main__":
     import argparse
@@ -51,6 +49,7 @@ if __name__ == "__main__":
                         help='Start year for paper collection')
     parser.add_argument('--conferences', nargs='+',
                         choices=['neurips', 'icml', 'iclr', 'rlj'],
+                        default=['neurips', 'icml', 'iclr', 'rlj'],
                         help='Specific conferences to download from')
     parser.add_argument('--output-dir', type=str, default='ml_papers',
                         help='Directory to store downloaded papers')
@@ -66,8 +65,10 @@ if __name__ == "__main__":
     if not args.nodownload:
         download_papers(args)
 
+    print(args.conferences)
     for conf in args.conferences:
-        base_path = args.output_path + f"/{conf}"
-        process_papers(base_path, args)
+        base_path = args.output_dir + f"/{conf}"
+        output_path = args.output_dir + f"{conf}.json"
+        process_papers(base_path, output_path, args)
 
     #generate_automated_dataset(args)

@@ -4,3 +4,7 @@ tqdm
 pypdf
 requests
 beautifulsoup4
+pandas
+plotly
+ipykernel
+pip
