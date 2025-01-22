@@ -1,0 +1,6 @@
+openreview-py
+rich
+tqdm
+pypdf
+requests
+beautifulsoup4
