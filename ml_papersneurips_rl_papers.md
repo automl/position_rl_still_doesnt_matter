@@ -37,7 +37,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### A Hierarchical Reinforcement Learning Based Optimization Framework for Large-scale Dynamic Pickup an.pdf
@@ -64,7 +64,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### A Minimalist Approach to Offline Reinforcement Learning.pdf
@@ -109,7 +109,7 @@
 * Code available: No
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo', 'dreamer']
+* Algorithm: ['ppo', 'dreamer', 'sac']
 
 
 ### Accommodating Picky Customers Regret Bound and Exploration Complexity for Multi-Objective Reinforcem.pdf
@@ -118,7 +118,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Active Offline Policy Selection.pdf
@@ -127,7 +127,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Adaptable Agent Populations via a Generative Model of Policies.pdf
@@ -145,7 +145,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### Agent Modelling under Partial Observability for Deep Reinforcement Learning.pdf
@@ -163,7 +163,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['trpo', 'ppo']
+* Algorithm: ['ppo', 'trpo']
 
 
 ### An Analysis of Abstracted Model-Based Reinforcement Learning.pdf
@@ -181,7 +181,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['ddpg', 'dqn', 'ppo']
+* Algorithm: ['ppo', 'ddpg', 'dqn']
 
 
 ### An Exponential Lower Bound for Linearly Realizable MDP with Constant Suboptimality Gap.pdf
@@ -217,7 +217,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### Autonomous Reinforcement Learning via Subgoal Curricula.pdf
@@ -235,7 +235,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac']
+* Algorithm: ['sac', 'dqn']
 
 
 ### BCORLElambda An Offline Reinforcement Learning and Evaluation Framework for Coupons Allocation in E-.pdf
@@ -253,7 +253,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Behavior From the Void Unsupervised Active Pre-Training.pdf
@@ -262,7 +262,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Believe What You See Implicit Constraint Approach for Offline Multi-Agent Reinforcement Learning.pdf
@@ -325,7 +325,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### Brick-by-Brick Combinatorial Construction with Deep Reinforcement Learning.pdf
@@ -334,7 +334,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### Bridging the Imitation Gap by Adaptive Insubordination.pdf
@@ -343,7 +343,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['trpo', 'ppo', 'ddpg', 'dqn', 'a2c']
+* Algorithm: ['trpo', 'ddpg', 'dqn', 'ppo', 'a2c']
 
 
 ### CO-PILOT COllaborative Planning and reInforcement Learning On sub-Task curriculum.pdf
@@ -352,7 +352,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### COMBO Conservative Offline Model-Based Policy Optimization.pdf
@@ -361,7 +361,7 @@
 * Code available: No
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### Causal Influence Detection for Improving Efficiency in Reinforcement Learning.pdf
@@ -370,7 +370,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['ddpg', 'ppo']
+* Algorithm: ['ppo', 'ddpg']
 
 
 ### Celebrating Diversity in Shared Multi-Agent Reinforcement Learning.pdf
@@ -379,7 +379,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['ddpg', 'sac', 'ppo']
+* Algorithm: ['ppo', 'ddpg', 'sac']
 
 
 ### Co-Adaptation of Algorithmic and Implementational Innovations in Inference-based Deep Reinforcement .pdf
@@ -388,7 +388,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['trpo', 'ppo', 'ddpg', 'td3', 'dqn', 'sac']
+* Algorithm: ['trpo', 'ddpg', 'dqn', 'td3', 'ppo', 'sac']
 
 
 ### Collaborating with Humans without Human Data.pdf
@@ -406,7 +406,7 @@
 * Code available: No
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### Conservative Offline Distributional Reinforcement Learning.pdf
@@ -415,7 +415,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Continual Auxiliary Task Learning.pdf
@@ -424,7 +424,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Continual World A Robotic Benchmark For Continual Reinforcement Learning.pdf
@@ -442,7 +442,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac']
+* Algorithm: ['sac', 'dqn']
 
 
 ### Contrastive Reinforcement Learning of Symbolic Reasoning Domains.pdf
@@ -451,7 +451,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### Cooperative Multi-Agent Reinforcement Learning with Sequential Credit Assignment.pdf
@@ -460,7 +460,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Coordinated Proximal Policy Optimization.pdf
@@ -469,7 +469,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['trpo', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'trpo']
 
 
 ### Counterexample Guided RL Policy Refinement Using Bayesian Optimization.pdf
@@ -505,7 +505,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Damped Anderson Mixing for Deep Reinforcement Learning Acceleration Convergence and Stabilization.pdf
@@ -514,7 +514,7 @@
 * Code available: No
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['ddpg', 'dqn', 'td3']
+* Algorithm: ['td3', 'ddpg', 'dqn']
 
 
 ### Decentralized Q-learning in Zero-sum Markov Games.pdf
@@ -523,7 +523,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Decision Transformer Reinforcement Learning via Sequence Modeling.pdf
@@ -541,7 +541,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo', 'dreamer']
+* Algorithm: ['ppo', 'dreamer', 'sac', 'dqn']
 
 
 ### Delayed Propagation Transformer A Universal Computation Engine towards Practical Control in Cyber-Ph.pdf
@@ -559,7 +559,7 @@
 * Code available: No
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['trpo', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'trpo']
 
 
 ### Direct then Diffuse Incremental Unsupervised Skill Discovery for State Covering and Goal Reaching.pdf
@@ -568,7 +568,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### Discovery of Options via Meta-Learned Subgoals.pdf
@@ -604,7 +604,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### Dynamic Bottleneck for Robust Self-Supervised Exploration.pdf
@@ -613,7 +613,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### Dynamic population-based meta-learning for multi-agent communication with natural language.pdf
@@ -631,7 +631,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### ELLA Exploration through Learned Language Abstraction.pdf
@@ -676,7 +676,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Evaluation of Human-AI Teams for Learned and Rule-Based Agents in Hanabi.pdf
@@ -703,7 +703,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### Exponential Bellman Equation and Improved Regret Bounds for Risk-Sensitive Reinforcement Learning.pdf
@@ -721,7 +721,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['ddpg', 'dqn', 'ppo']
+* Algorithm: ['ppo', 'ddpg', 'dqn']
 
 
 ### Factored Policy Gradients Leveraging Structure for Efficient Learning in MOMDPs.pdf
@@ -730,7 +730,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### Fast Algorithms for L_infty-constrained S-rectangular Robust MDPs.pdf
@@ -748,7 +748,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### Fault-Tolerant Federated Reinforcement Learning with Theoretical Guarantee.pdf
@@ -766,7 +766,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Flexible Option Learning.pdf
@@ -775,7 +775,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['a3c', 'ppo', 'a2c']
+* Algorithm: ['ppo', 'a2c', 'a3c']
 
 
 ### Functional Regularization for Reinforcement Learning via Learned Fourier Features.pdf
@@ -784,7 +784,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Generalized Proximal Policy Optimization with Sample Reuse.pdf
@@ -793,7 +793,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['trpo', 'ppo']
+* Algorithm: ['ppo', 'trpo']
 
 
 ### Global Convergence of Multi-Agent Policy Gradient in Markov Potential Games.pdf
@@ -811,7 +811,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['a3c', 'sac', 'ppo', 'a2c']
+* Algorithm: ['ppo', 'a2c', 'sac', 'a3c']
 
 
 ### Going Beyond Linear RL Sample Efficient Neural Function Approximation.pdf
@@ -838,7 +838,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Hierarchical Reinforcement Learning with Timed Subgoals.pdf
@@ -847,7 +847,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### Hierarchical Skills for Efficient Exploration.pdf
@@ -865,7 +865,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### Hit and Lead Discovery with Explorative RL and Fragment-based Molecule Generation.pdf
@@ -874,7 +874,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac']
+* Algorithm: ['sac', 'dqn']
 
 
 ### IQ-Learn Inverse soft-Q Learning for Imitation.pdf
@@ -883,7 +883,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac']
+* Algorithm: ['sac', 'dqn']
 
 
 ### Identifiability in inverse reinforcement learning.pdf
@@ -901,7 +901,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### Implicit Finite-Horizon Approximation and Efficient Optimal Algorithms for Stochastic Shortest Path.pdf
@@ -910,7 +910,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### Implicit SVD for Graph Representation Learning.pdf
@@ -928,7 +928,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### Improved Variance-Aware Confidence Sets for Linear Bandits and Linear Mixture MDP.pdf
@@ -937,7 +937,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### Improving Computational Efficiency in Visual Reinforcement Learning via Stored Embeddings.pdf
@@ -946,7 +946,7 @@
 * Code available: No
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Improving Generalization in Meta-RL with Imaginary Tasks from Latent Dynamics Mixture.pdf
@@ -1000,7 +1000,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo', 'dreamer']
+* Algorithm: ['ppo', 'dreamer', 'sac']
 
 
 ### Iterative Amortized Policy Optimization.pdf
@@ -1009,7 +1009,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['trpo', 'ppo', 'dqn', 'sac', 'a2c']
+* Algorithm: ['trpo', 'dqn', 'ppo', 'a2c', 'sac']
 
 
 ### Iterative Teaching by Label Synthesis.pdf
@@ -1018,7 +1018,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### K-level Reasoning for Zero-Shot Coordination in Hanabi.pdf
@@ -1045,7 +1045,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### Learning Collaborative Policies to Solve NP-hard Routing Problems.pdf
@@ -1054,7 +1054,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### Learning Diverse Policies in MOBA Games via Macro-Goals.pdf
@@ -1072,7 +1072,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### Learning Large Neighborhood Search Policy for Integer Programming.pdf
@@ -1081,7 +1081,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### Learning MDPs from Features Predict-Then-Optimize for Sequential Decision Making by Reinforcement Le.pdf
@@ -1099,7 +1099,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Learning Policies with Zero or Bounded Constraint Violation for Constrained MDPs.pdf
@@ -1108,7 +1108,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['trpo', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'trpo']
 
 
 ### Learning State Representations from Random Deep Action-conditional Predictions.pdf
@@ -1126,7 +1126,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Learning in Non-Cooperative Configurable Markov Decision Processes.pdf
@@ -1153,7 +1153,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### Learning to Ground Multi-Agent Communication with Autoencoders.pdf
@@ -1162,7 +1162,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['a3c', 'a2c']
+* Algorithm: ['a2c', 'a3c']
 
 
 ### Learning to Safely Exploit a Non-Stationary Opponent.pdf
@@ -1180,7 +1180,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['ddpg', 'ppo']
+* Algorithm: ['ppo', 'ddpg']
 
 
 ### Learning to Synthesize Programs as Interpretable and Generalizable Policies.pdf
@@ -1198,7 +1198,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### Local policy search with Bayesian optimization.pdf
@@ -1207,7 +1207,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['trpo', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'trpo']
 
 
 ### MADE Exploration via Maximizing Deviation from Explored Regions.pdf
@@ -1216,7 +1216,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['dqn', 'dreamer']
+* Algorithm: ['dreamer', 'dqn']
 
 
 ### MAP Propagation Algorithm Faster Learning with a Team of Reinforcement Learning Agents.pdf
@@ -1225,7 +1225,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### MERLOT Multimodal Neural Script Knowledge Models.pdf
@@ -1243,7 +1243,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Machine versus Human Attention in Deep Reinforcement Learning Tasks.pdf
@@ -1252,7 +1252,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo', 'a2c']
+* Algorithm: ['ppo', 'a2c', 'sac', 'dqn']
 
 
 ### Mastering Atari Games with Limited Data.pdf
@@ -1261,7 +1261,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Matrix encoding networks for neural combinatorial optimization.pdf
@@ -1279,7 +1279,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Meta Reinforcement Learning for Fast Adaptation of Hierarchical Policies.pdf
@@ -1288,7 +1288,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### Mimicking Evolution with Reinforcement Learning.pdf
@@ -1324,7 +1324,7 @@
 * Code available: No
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### Model-Based Reinforcement Learning via Imagination with Derived Memory.pdf
@@ -1333,7 +1333,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['ddpg', 'sac', 'ppo', 'dreamer']
+* Algorithm: ['ppo', 'dreamer', 'ddpg', 'sac']
 
 
 ### Monte Carlo Tree Search With Iteratively Refining State Abstractions.pdf
@@ -1351,7 +1351,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['ddpg', 'ppo', 'sac', 'td3']
+* Algorithm: ['ppo', 'ddpg', 'sac', 'td3']
 
 
 ### Multi-Agent Reinforcement Learning in Stochastic Networked Systems.pdf
@@ -1360,7 +1360,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Multi-Objective SPIBB Seldonian Offline Policy Improvement with Safety Constraints in Finite MDPs.pdf
@@ -1396,7 +1396,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### Nearly Minimax Optimal Reinforcement Learning for Discounted MDPs.pdf
@@ -1405,7 +1405,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### NeurWIN Neural Whittle Index Network For Restless Bandits Via Deep RL.pdf
@@ -1414,7 +1414,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['ddpg', 'dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'ddpg', 'sac', 'dqn']
 
 
 ### No RL No Simulation Learning to Navigate without Navigating.pdf
@@ -1432,7 +1432,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### NovelD A Simple yet Effective Exploration Criterion.pdf
@@ -1441,7 +1441,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Offline Constrained Multi-Objective Reinforcement Learning via Pessimistic Dual Value Iteration.pdf
@@ -1450,7 +1450,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Offline Meta Reinforcement Learning -- Identifiability Challenges and Effective Data Collection Stra.pdf
@@ -1468,7 +1468,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### Offline RL Without Off-Policy Evaluation.pdf
@@ -1504,7 +1504,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### On Joint Learning for Solving Placement and Routing in Chip Design.pdf
@@ -1513,7 +1513,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### On Pathologies in KL-Regularized Reinforcement Learning from Expert Demonstrations.pdf
@@ -1522,7 +1522,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac']
+* Algorithm: ['sac', 'dqn']
 
 
 ### On the Convergence Theory of Debiased Model-Agnostic Meta-Reinforcement Learning.pdf
@@ -1531,7 +1531,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### On the Convergence and Sample Efficiency of Variance-Reduced Policy Gradient Method.pdf
@@ -1576,7 +1576,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Online and Offline Reinforcement Learning by Planning with a Learned Model.pdf
@@ -1612,7 +1612,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Oracle-Efficient Regret Minimization in Factored MDPs with Unknown Structure.pdf
@@ -1630,7 +1630,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Parametrized Quantum Policies for Reinforcement Learning.pdf
@@ -1639,7 +1639,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### PerSim Data-Efficient Offline Reinforcement Learning with Heterogeneous Agents via Personalized Simu.pdf
@@ -1648,7 +1648,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo', 'td3']
+* Algorithm: ['td3', 'ppo', 'dqn']
 
 
 ### Pessimism Meets Invariance Provably Efficient Offline Mean-Field Multi-Agent RL.pdf
@@ -1675,7 +1675,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### Planning from Pixels in Environments with Combinatorially Hard Search Spaces.pdf
@@ -1693,7 +1693,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### PlayVirtual Augmenting Cycle-Consistent Virtual Trajectories for Reinforcement Learning.pdf
@@ -1702,7 +1702,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### Policy Finetuning Bridging Sample-Efficient Offline and Online Reinforcement Learning.pdf
@@ -1729,7 +1729,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### Proper Value Equivalence.pdf
@@ -1765,7 +1765,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### Provably Efficient Black-Box Action Poisoning Attacks Against Reinforcement Learning.pdf
@@ -1774,7 +1774,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo', 'a2c']
+* Algorithm: ['ppo', 'a2c', 'dqn']
 
 
 ### Provably Efficient Causal Reinforcement Learning with Confounded Observational Data.pdf
@@ -1783,7 +1783,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### Provably Efficient Reinforcement Learning with Linear Function Approximation under Adaptivity Constr.pdf
@@ -1792,7 +1792,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Provably efficient multi-task reinforcement learning with model transfer.pdf
@@ -1819,7 +1819,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### RMIX Learning Risk-Sensitive Policies for Cooperative Reinforcement Learning Agents.pdf
@@ -1828,7 +1828,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### RMM Reinforced Memory Management for Class-Incremental Learning.pdf
@@ -1855,7 +1855,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Regularized Softmax Deep Multi-Agent Q-Learning.pdf
@@ -1864,7 +1864,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['ppo', 'ddpg', 'td3', 'dqn', 'sac']
+* Algorithm: ['ddpg', 'dqn', 'td3', 'ppo', 'sac']
 
 
 ### Reinforced Few-Shot Acquisition Function Learning for Bayesian Optimization.pdf
@@ -1873,7 +1873,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### Reinforcement Learning Enhanced Explainer for Graph Neural Networks.pdf
@@ -1891,7 +1891,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['trpo', 'ppo']
+* Algorithm: ['ppo', 'trpo']
 
 
 ### Reinforcement Learning in Linear MDPs Constant Regret and Representation Selection.pdf
@@ -1909,7 +1909,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### Reinforcement Learning in Reward-Mixing MDPs.pdf
@@ -1927,7 +1927,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac']
+* Algorithm: ['sac', 'dqn']
 
 
 ### Reinforcement Learning with State Observation Costs in Action-Contingent Noiselessly Observable Mark.pdf
@@ -1936,7 +1936,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo', 'a2c']
+* Algorithm: ['ppo', 'a2c', 'sac', 'dqn']
 
 
 ### Reinforcement learning for instance segmentation with high-level priors.pdf
@@ -1972,7 +1972,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### Represent Your Own Policies Reinforcement Learning with Policy-extended Value Function Approximator.pdf
@@ -1981,7 +1981,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['trpo', 'ppo']
+* Algorithm: ['ppo', 'trpo']
 
 
 ### Representation Learning for Event-based Visuomotor Policies.pdf
@@ -1999,7 +1999,7 @@
 * Code available: No
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### Reward is enough for convex MDPs.pdf
@@ -2008,7 +2008,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'trpo']
+* Algorithm: ['trpo', 'dqn']
 
 
 ### Reward-Free Model-Based Reinforcement Learning with Linear Function Approximation.pdf
@@ -2026,7 +2026,7 @@
 * Code available: No
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### Risk-Aware Transfer in Reinforcement Learning using Successor Features.pdf
@@ -2044,7 +2044,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['ddpg', 'dqn', 'a3c', 'ppo']
+* Algorithm: ['ppo', 'ddpg', 'a3c', 'dqn']
 
 
 ### Robust Inverse Reinforcement Learning under Transition Dynamics Mismatch.pdf
@@ -2062,7 +2062,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### SILG The Multi-domain Symbolic Interactive Language Grounding Benchmark.pdf
@@ -2080,7 +2080,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### Safe Policy Optimization with Local Generalized Linear Function Approximations.pdf
@@ -2098,7 +2098,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['trpo', 'ppo']
+* Algorithm: ['ppo', 'trpo']
 
 
 ### Safe Reinforcement Learning by Imagining the Near Future.pdf
@@ -2107,7 +2107,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### Safe Reinforcement Learning with Natural Language Constraints.pdf
@@ -2116,7 +2116,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['trpo', 'ppo']
+* Algorithm: ['ppo', 'trpo']
 
 
 ### Sample-Efficient Learning of Stackelberg Equilibria in General-Sum Games.pdf
@@ -2143,7 +2143,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### Scalable Online Planning via Reinforcement Learning Fine-Tuning.pdf
@@ -2152,7 +2152,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### Self-Consistent Models and Values.pdf
@@ -2179,7 +2179,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['trpo', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'trpo']
 
 
 ### Sim and Real Better Together.pdf
@@ -2215,7 +2215,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Stochastic Approximation of Gaussian Free Energy for Risk-Sensitive Reinforcement Learning.pdf
@@ -2242,7 +2242,7 @@
 * Code available: No
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Successor Feature Landmarks for Long-Horizon Goal-Conditioned Reinforcement Learning.pdf
@@ -2260,7 +2260,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['ddpg', 'sac', 'ppo']
+* Algorithm: ['ppo', 'ddpg', 'sac']
 
 
 ### TAAC Temporally Abstract Actor-Critic for Continuous Control.pdf
@@ -2269,7 +2269,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### TacticZero Learning to Prove Theorems from Scratch with Deep Reinforcement Learning.pdf
@@ -2287,7 +2287,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['ppo', 'dreamer', 'td3', 'dqn', 'sac']
+* Algorithm: ['dreamer', 'dqn', 'td3', 'ppo', 'sac']
 
 
 ### Teachable Reinforcement Learning via Advice Distillation.pdf
@@ -2305,7 +2305,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac']
+* Algorithm: ['sac', 'dqn']
 
 
 ### The Difficulty of Passive Learning in Deep Reinforcement Learning.pdf
@@ -2359,7 +2359,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### Time Discretization-Invariant Safe Action Repetition for Policy Gradient Methods.pdf
@@ -2368,7 +2368,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['trpo', 'ppo', 'ddpg', 'dqn', 'a2c']
+* Algorithm: ['trpo', 'ddpg', 'dqn', 'ppo', 'a2c']
 
 
 ### Towards Deeper Deep Reinforcement Learning with Spectral Normalization.pdf
@@ -2377,7 +2377,7 @@
 * Code available: No
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['trpo', 'ppo', 'ddpg', 'dqn', 'sac']
+* Algorithm: ['trpo', 'ddpg', 'dqn', 'ppo', 'sac']
 
 
 ### Towards Hyperparameter-free Policy Selection for Offline Reinforcement Learning.pdf
@@ -2395,7 +2395,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### Towards Robust Bisimulation Metric Learning.pdf
@@ -2404,7 +2404,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### Towards Understanding Cooperative Multi-Agent Q-Learning with Value Factorization.pdf
@@ -2413,7 +2413,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Towards mental time travel a hierarchical memory for reinforcement learning agents.pdf
@@ -2431,7 +2431,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['trpo', 'ppo']
+* Algorithm: ['ppo', 'trpo']
 
 
 ### Twice regularized MDPs and the equivalence between robustness and regularization.pdf
@@ -2467,7 +2467,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'td3']
+* Algorithm: ['td3', 'sac', 'dqn']
 
 
 ### Understanding End-to-End Model-Based Reinforcement Learning Methods as Implicit Parameterization.pdf
@@ -2485,7 +2485,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['trpo', 'ppo']
+* Algorithm: ['ppo', 'trpo']
 
 
 ### Uniform-PAC Bounds for Reinforcement Learning with Linear Function Approximation.pdf
@@ -2494,7 +2494,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### Unifying Gradient Estimators for Meta-Reinforcement Learning  via Off-Policy Evaluation.pdf
@@ -2512,7 +2512,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### Unsupervised Domain Adaptation with Dynamics-Aware Rewards in Reinforcement Learning.pdf
@@ -2575,7 +2575,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### Weighted model estimation for offline model-based reinforcement learning.pdf
@@ -2584,7 +2584,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### When Is Generalizable Reinforcement Learning Tractable.pdf
@@ -2593,7 +2593,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### When should agents explore.pdf
@@ -2620,7 +2620,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### Widening the Pipeline in Human-Guided Reinforcement Learning with Explanation and Context-Aware Data.pdf
@@ -2629,7 +2629,7 @@
 * Code available: No
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### XDO A Double Oracle Algorithm for Extensive-Form Games.pdf
@@ -2659,7 +2659,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'td3']
+* Algorithm: ['td3', 'sac', 'dqn']
 
 
 ### A Deep Reinforcement Learning Framework for Column Generation.pdf
@@ -2668,7 +2668,7 @@
 * Code available: No
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac']
+* Algorithm: ['sac', 'dqn']
 
 
 ### A Direct Approximation of AIXI Using Logical State Abstractions.pdf
@@ -2677,7 +2677,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### A Few Expert Queries Suffices for Sample-Efficient RL with Resets and Linear Value Approximation.pdf
@@ -2695,7 +2695,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### A Mixture Of Surprises for Unsupervised Reinforcement Learning.pdf
@@ -2704,7 +2704,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['ddpg', 'ppo']
+* Algorithm: ['ppo', 'ddpg']
 
 
 ### A Near-Optimal Primal-Dual Method for Off-Policy Learning in CMDP.pdf
@@ -2713,7 +2713,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### A Non-asymptotic Analysis of Non-parametric Temporal-Difference Learning.pdf
@@ -2740,7 +2740,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### A Simple Decentralized Cross-Entropy Method.pdf
@@ -2749,7 +2749,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo', 'pets']
+* Algorithm: ['ppo', 'sac', 'pets']
 
 
 ### A Theoretical Understanding of Gradient Bias in Meta-Reinforcement Learning.pdf
@@ -2776,7 +2776,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### A Unified Framework for Deep Symbolic Regression.pdf
@@ -2785,7 +2785,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### ALMA Hierarchical Learning for Composite Multi-Agent Tasks.pdf
@@ -2794,7 +2794,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### ASPiRe Adaptive Skill Priors for  Reinforcement Learning.pdf
@@ -2812,7 +2812,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo', 'a2c']
+* Algorithm: ['ppo', 'a2c', 'sac', 'dqn']
 
 
 ### Active Exploration for Inverse Reinforcement Learning.pdf
@@ -2920,7 +2920,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['trpo', 'ppo']
+* Algorithm: ['ppo', 'trpo']
 
 
 ### Bayesian Optimistic Optimization Optimistic Exploration for Model-based Reinforcement Learning.pdf
@@ -2947,7 +2947,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### Best of Both Worlds Model Selection.pdf
@@ -2965,7 +2965,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo', 'td3']
+* Algorithm: ['td3', 'ppo', 'dqn']
 
 
 ### Bilinear Exponential Family of MDPs Frequentist Regret Bound with Tractable Exploration  Planning.pdf
@@ -3001,7 +3001,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### Causality-driven Hierarchical Structure Discovery for Reinforcement Learning.pdf
@@ -3010,7 +3010,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Challenging Common Assumptions in Convex Reinforcement Learning.pdf
@@ -3073,7 +3073,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['trpo', 'ppo']
+* Algorithm: ['ppo', 'trpo']
 
 
 ### Continuous Deep Q-Learning in Optimal Control Problems Normalized Advantage Functions Analysis.pdf
@@ -3082,7 +3082,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['ddpg', 'dqn', 'ppo']
+* Algorithm: ['ppo', 'ddpg', 'dqn']
 
 
 ### Continuous MDP Homomorphisms and Homomorphic Policy Gradient.pdf
@@ -3091,7 +3091,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['ppo', 'ddpg', 'td3', 'dqn', 'sac']
+* Algorithm: ['ddpg', 'dqn', 'td3', 'ppo', 'sac']
 
 
 ### Contrastive Learning as Goal-Conditioned Reinforcement Learning.pdf
@@ -3109,7 +3109,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['ddpg', 'dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'ddpg', 'sac', 'dqn']
 
 
 ### Curriculum Reinforcement Learning using Optimal Transport via Gradual Domain Adaptation.pdf
@@ -3118,7 +3118,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### DASCO Dual-Generator Adversarial Support Constrained Offline Reinforcement Learning.pdf
@@ -3127,7 +3127,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo', 'sac', 'td3']
+* Algorithm: ['td3', 'ppo', 'sac', 'dqn']
 
 
 ### DHRL A Graph-Based Approach for Long-Horizon and Sparse Hierarchical Reinforcement Learning.pdf
@@ -3136,7 +3136,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### DMAP a Distributed Morphological Attention Policy for learning to locomote with a changing body.pdf
@@ -3145,7 +3145,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### DNA Proximal Policy Optimization with a Dual Network Architecture.pdf
@@ -3154,7 +3154,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### DOMINO Decomposed Mutual Information Optimization for Generalized Context in Meta-Reinforcement Lear.pdf
@@ -3163,7 +3163,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### DOPE Doubly Optimistic and Pessimistic Exploration for Safe Reinforcement Learning.pdf
@@ -3181,7 +3181,7 @@
 * Code available: No
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### Deciding What to Model Value-Equivalent Sampling for Reinforcement Learning.pdf
@@ -3190,7 +3190,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Deep Generalized Schrödinger Bridge.pdf
@@ -3217,7 +3217,7 @@
 * Code available: No
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### Direct Advantage Estimation.pdf
@@ -3235,7 +3235,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### Disentangling Transfer in Continual Reinforcement Learning.pdf
@@ -3271,7 +3271,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### Distributional Reinforcement Learning for Risk-Sensitive Policies.pdf
@@ -3280,7 +3280,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### Distributional Reinforcement Learning via Sinkhorn Iterations.pdf
@@ -3289,7 +3289,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### Distributional Reward Estimation for Effective Multi-agent Deep Reinforcement Learning.pdf
@@ -3298,7 +3298,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['ddpg', 'dqn', 'ppo']
+* Algorithm: ['ppo', 'ddpg', 'dqn']
 
 
 ### Distributionally Adaptive Meta Reinforcement Learning.pdf
@@ -3307,7 +3307,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### Does Self-supervised Learning Really Improve Reinforcement Learning from Pixels.pdf
@@ -3316,7 +3316,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac']
+* Algorithm: ['sac', 'dqn']
 
 
 ### Doubly-Asynchronous Value Iteration Making Value Iteration Asynchronous in Actions.pdf
@@ -3325,7 +3325,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### DreamShard Generalizable Embedding Table Placement for Recommender Systems.pdf
@@ -3352,7 +3352,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['ddpg', 'sac', 'ppo']
+* Algorithm: ['ppo', 'ddpg', 'sac']
 
 
 ### EAGER Asking and Answering Questions for Automatic Reward Shaping in Language-guided RL.pdf
@@ -3379,7 +3379,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### Efficient Meta Reinforcement Learning for Preference-based Fast Adaptation.pdf
@@ -3397,7 +3397,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### Efficient Phi-Regret Minimization in Extensive-Form Games via Online Mirror Descent.pdf
@@ -3424,7 +3424,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### Empirical Gateaux Derivatives for Causal Inference.pdf
@@ -3433,7 +3433,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### Enhanced Meta Reinforcement Learning via Demonstrations in Sparse Reward Environments.pdf
@@ -3442,7 +3442,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'trpo']
+* Algorithm: ['trpo', 'dqn']
 
 
 ### Enhancing Safe Exploration Using Safety State Augmentation.pdf
@@ -3451,7 +3451,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'trpo', 'ppo']
+* Algorithm: ['ppo', 'trpo', 'dqn']
 
 
 ### Evaluation beyond Task Performance Analyzing Concepts in AlphaZero in Hex.pdf
@@ -3487,7 +3487,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### Exploit Reward Shifting in Value-Based Deep-RL Optimistic Curiosity-Based Exploration and Conservati.pdf
@@ -3496,7 +3496,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac']
+* Algorithm: ['sac', 'dqn']
 
 
 ### Exploration via Elliptical Episodic Bonuses.pdf
@@ -3514,7 +3514,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['ppo', 'sac', 'td3', 'pets']
+* Algorithm: ['ppo', 'sac', 'pets', 'td3']
 
 
 ### Exploration-Guided Reward Shaping for Reinforcement Learning under Sparse Rewards.pdf
@@ -3541,7 +3541,7 @@
 * Code available: No
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### Faster Deep Reinforcement Learning with Slower Online Network.pdf
@@ -3550,7 +3550,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['dqn', 'trpo', 'ppo', 'td3']
+* Algorithm: ['td3', 'trpo', 'ppo', 'dqn']
 
 
 ### Faster Reinforcement Learning with Value Target Lower Bounding.pdf
@@ -3568,7 +3568,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### First Contact Unsupervised Human-Machine Co-Adaptation via Mutual Information Maximization.pdf
@@ -3595,7 +3595,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### Generalizing Goal-Conditioned Reinforcement Learning with Variational Causal Reasoning.pdf
@@ -3604,7 +3604,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo', 'pets']
+* Algorithm: ['ppo', 'sac', 'pets', 'dqn']
 
 
 ### Giving Feedback on Interactive Student Programs with Meta-Exploration.pdf
@@ -3649,7 +3649,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### Grounding Aleatoric Uncertainty for Unsupervised Environment Design.pdf
@@ -3667,7 +3667,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### Heterogeneous Skill Learning for Multi-agent Tasks.pdf
@@ -3676,7 +3676,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### Human-Robotic Prosthesis as Collaborating Agents for Symmetrical Walking.pdf
@@ -3685,7 +3685,7 @@
 * Code available: No
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['ddpg', 'trpo', 'sac', 'ppo']
+* Algorithm: ['ppo', 'ddpg', 'sac', 'trpo']
 
 
 ### I2Q A Fully Decentralized Q-Learning Algorithm.pdf
@@ -3694,7 +3694,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['ddpg', 'dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'ddpg', 'sac', 'dqn']
 
 
 ### IMED-RL Regret optimal learning of ergodic Markov decision processes.pdf
@@ -3703,7 +3703,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### Identifiability and generalizability from multiple experts in Inverse Reinforcement Learning.pdf
@@ -3739,7 +3739,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### In Defense of the Unitary Scalarization for Deep Multi-Task Learning.pdf
@@ -3757,7 +3757,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### Influencing Long-Term Behavior in Multiagent Reinforcement Learning.pdf
@@ -3766,7 +3766,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### Inherently Explainable Reinforcement Learning in Natural Language.pdf
@@ -3883,7 +3883,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['ddpg', 'dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'ddpg', 'sac', 'dqn']
 
 
 ### Learning General World Models in a Handful of Reward-Free Deployments.pdf
@@ -3901,7 +3901,7 @@
 * Code available: No
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Learning Infinite-Horizon Average-Reward Restless Multi-Action Bandits via Index Awareness.pdf
@@ -3919,7 +3919,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### Learning Options via Compression.pdf
@@ -3946,7 +3946,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['ppo', 'dreamer', 'ddpg', 'td3', 'dqn', 'sac']
+* Algorithm: ['ddpg', 'dreamer', 'dqn', 'td3', 'ppo', 'sac']
 
 
 ### Learning in Congestion Games with Bandit Feedback.pdf
@@ -3955,7 +3955,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Learning to Attack Federated Learning A Model-based Reinforcement Learning Attack Framework.pdf
@@ -3973,7 +3973,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac']
+* Algorithm: ['sac', 'dqn']
 
 
 ### Learning to Find Proofs and Theorems by Learning to Refine Search Strategies The Case of Loop Invari.pdf
@@ -3991,7 +3991,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### Learning to Mitigate AI Collusion on Economic Platforms.pdf
@@ -4009,7 +4009,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['ddpg', 'dqn', 'sac']
+* Algorithm: ['ddpg', 'sac', 'dqn']
 
 
 ### Leveraging Factored Action Spaces for Efficient Offline Reinforcement Learning in Healthcare.pdf
@@ -4018,7 +4018,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Look where you look Saliency-guided Q-networks for generalization in visual Reinforcement Learning.pdf
@@ -4027,7 +4027,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Low-Rank Modular Reinforcement Learning via Muscle Synergy.pdf
@@ -4072,7 +4072,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### Masked Autoencoding for Scalable and Generalizable Decision Making.pdf
@@ -4090,7 +4090,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['ddpg', 'trpo', 'td3']
+* Algorithm: ['trpo', 'ddpg', 'td3']
 
 
 ### Maximum-Likelihood Inverse Reinforcement Learning with Finite-Time Guarantees.pdf
@@ -4099,7 +4099,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Meta Reinforcement Learning with Finite Training Tasks - a Density Estimation Approach.pdf
@@ -4126,7 +4126,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### Mildly Conservative Q-Learning for Offline Reinforcement Learning.pdf
@@ -4135,7 +4135,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo', 'sac', 'td3']
+* Algorithm: ['td3', 'ppo', 'sac', 'dqn']
 
 
 ### Mingling Foresight with Imagination Model-Based Cooperative Multi-Agent Reinforcement Learning.pdf
@@ -4153,7 +4153,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### Mismatched No More Joint Model-Policy Optimization for Model-Based RL.pdf
@@ -4171,7 +4171,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['ddpg', 'ppo', 'sac', 'td3']
+* Algorithm: ['ppo', 'ddpg', 'sac', 'td3']
 
 
 ### Model-Based Offline Reinforcement Learning with Pessimism-Modulated Dynamics Belief.pdf
@@ -4189,7 +4189,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo', 'dreamer', 'pets']
+* Algorithm: ['ppo', 'dreamer', 'pets', 'dqn']
 
 
 ### Model-based RL with Optimistic Posterior Sampling Structural Conditions and Sample Complexity.pdf
@@ -4207,7 +4207,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['trpo', 'ppo']
+* Algorithm: ['ppo', 'trpo']
 
 
 ### Modeling Human Exploration Through Resource-Rational Reinforcement Learning.pdf
@@ -4234,7 +4234,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo', 'sac', 'td3']
+* Algorithm: ['td3', 'ppo', 'sac', 'dqn']
 
 
 ### Multi-Agent Reinforcement Learning is a Sequence Modeling Problem.pdf
@@ -4243,7 +4243,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['ddpg', 'trpo', 'ppo']
+* Algorithm: ['ppo', 'ddpg', 'trpo']
 
 
 ### Multi-Game Decision Transformers.pdf
@@ -4252,7 +4252,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### Multi-agent Dynamic Algorithm Configuration.pdf
@@ -4261,7 +4261,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Multiagent Q-learning with Sub-Team Coordination.pdf
@@ -4270,7 +4270,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Multifidelity Reinforcement Learning with Control Variates.pdf
@@ -4315,7 +4315,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### Near-Optimal Regret for Adversarial MDP with Delayed Bandit Feedback.pdf
@@ -4333,7 +4333,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Near-optimal Distributional Reinforcement Learning towards Risk-sensitive Control.pdf
@@ -4351,7 +4351,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['ddpg', 'dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'ddpg', 'sac', 'dqn']
 
 
 ### Non-Markovian Reward Modelling from Trajectory Labels via Interpretable Multiple Instance Learning.pdf
@@ -4360,7 +4360,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Object-Category Aware Reinforcement Learning.pdf
@@ -4378,7 +4378,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Off-Policy Evaluation for Action-Dependent Non-stationary Environments.pdf
@@ -4387,7 +4387,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### Off-Policy Evaluation for Episodic Partially Observable Markov Decision Processes under Non-Parametr.pdf
@@ -4405,7 +4405,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### Offline Goal-Conditioned Reinforcement Learning via f-Advantage Regression.pdf
@@ -4414,7 +4414,7 @@
 * Code available: No
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['ddpg', 'dqn', 'ppo']
+* Algorithm: ['ppo', 'ddpg', 'dqn']
 
 
 ### Offline Multi-Agent Reinforcement Learning with Knowledge Distillation.pdf
@@ -4423,7 +4423,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### On Efficient Online Imitation Learning via Classification.pdf
@@ -4450,7 +4450,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### On the Complexity of Adversarial Decision Making.pdf
@@ -4477,7 +4477,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### On the Statistical Efficiency of Reward-Free Exploration in Non-Linear RL.pdf
@@ -4513,7 +4513,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo', 'a2c']
+* Algorithm: ['ppo', 'a2c', 'sac']
 
 
 ### Operator Splitting Value Iteration.pdf
@@ -4522,7 +4522,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### Optimistic Posterior Sampling for Reinforcement Learning with Few Samples and Tight Guarantees.pdf
@@ -4531,7 +4531,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### Oracle Inequalities for Model Selection in Offline Reinforcement Learning.pdf
@@ -4549,7 +4549,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### PALMER Perception - Action Loop with Memory for Long-Horizon Planning.pdf
@@ -4558,7 +4558,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac']
+* Algorithm: ['sac', 'dqn']
 
 
 ### PCRL Priority Convention Reinforcement Learning for Microscopically Sequencable Multi-agent Problems.pdf
@@ -4567,7 +4567,7 @@
 * Code available: No
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### PaCo Parameter-Compositional Multi-task Reinforcement Learning.pdf
@@ -4576,7 +4576,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### Parametrically Retargetable Decision-Makers Tend To Seek Power.pdf
@@ -4594,7 +4594,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### Pessimism for Offline Linear Contextual Bandits using ell_p Confidence Sets.pdf
@@ -4612,7 +4612,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['trpo', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'trpo']
 
 
 ### Planning to the Information Horizon of BAMDPs via Epistemic State Abstraction.pdf
@@ -4621,7 +4621,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Policy Gradient With Serial Markov Chain Reasoning.pdf
@@ -4630,7 +4630,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'trpo', 'sac', 'ppo']
+* Algorithm: ['ppo', 'trpo', 'sac', 'dqn']
 
 
 ### Policy Optimization for Markov Games Unified Framework and Faster Convergence.pdf
@@ -4657,7 +4657,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### Pre-Trained Image Encoder for Generalizable Visual Reinforcement Learning.pdf
@@ -4675,7 +4675,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### Provable Benefit of Multitask Representation Learning in Reinforcement Learning.pdf
@@ -4693,7 +4693,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### Provable General Function Class Representation Learning in Multitask Bandits and MDP.pdf
@@ -4711,7 +4711,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Provably Efficient Offline Multi-agent Reinforcement Learning via Strategy-wise Bonus.pdf
@@ -4765,7 +4765,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### RAMBO-RL Robust Adversarial Model-Based Offline Reinforcement Learning.pdf
@@ -4792,7 +4792,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Receding Horizon Inverse Reinforcement Learning.pdf
@@ -4801,7 +4801,7 @@
 * Code available: No
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### Recursive Reinforcement Learning.pdf
@@ -4810,7 +4810,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Redeeming intrinsic rewards via constrained optimization.pdf
@@ -4819,7 +4819,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### Regret Bounds for Information-Directed Reinforcement Learning.pdf
@@ -4828,7 +4828,7 @@
 * Code available: No
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### Regret Bounds for Risk-Sensitive Reinforcement Learning.pdf
@@ -4855,7 +4855,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo', 'td3']
+* Algorithm: ['td3', 'ppo', 'dqn']
 
 
 ### Reinforcement Learning in a Birth and Death Process Breaking the Dependence on the State Space.pdf
@@ -4864,7 +4864,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### Reinforcement Learning with Automated Auxiliary Loss Search.pdf
@@ -4909,7 +4909,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### Relational Reasoning via Set Transformers Provable Efficiency and Applications to MARL.pdf
@@ -4927,7 +4927,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### Rethinking Individual Global Max in Cooperative Multi-Agent Reinforcement Learning.pdf
@@ -4936,7 +4936,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### Rethinking Value Function Learning for Generalization in Reinforcement Learning.pdf
@@ -4981,7 +4981,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['ddpg', 'dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'ddpg', 'sac', 'dqn']
 
 
 ### Robust Reinforcement Learning using Offline Data.pdf
@@ -4990,7 +4990,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['ddpg', 'dqn', 'td3']
+* Algorithm: ['td3', 'ddpg', 'dqn']
 
 
 ### S2P State-conditioned Image Synthesis for Data Augmentation in Offline Reinforcement Learning.pdf
@@ -5008,7 +5008,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['ddpg', 'dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'ddpg', 'sac', 'dqn']
 
 
 ### SPD Synergy Pattern Diversifying Oriented Unsupervised Multi-agent Reinforcement Learning.pdf
@@ -5017,7 +5017,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'trpo', 'sac', 'ppo']
+* Algorithm: ['ppo', 'trpo', 'sac', 'dqn']
 
 
 ### Sample-Efficient Learning of Correlated Equilibria in Extensive-Form Games.pdf
@@ -5044,7 +5044,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Self-Organized Group for Cooperative Multi-agent Reinforcement Learning.pdf
@@ -5053,7 +5053,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['ddpg', 'dqn', 'ppo']
+* Algorithm: ['ppo', 'ddpg', 'dqn']
 
 
 ### Shield Decentralization for Safe Multi-Agent Reinforcement Learning.pdf
@@ -5071,7 +5071,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Skills Regularized Task Decomposition for Multi-task Offline Reinforcement Learning.pdf
@@ -5098,7 +5098,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### Spending Thinking Time Wisely Accelerating MCTS with Virtual Expansions.pdf
@@ -5116,7 +5116,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['ddpg', 'dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'ddpg', 'sac', 'dqn']
 
 
 ### Stochastic Second-Order Methods Improve Best-Known Sample Complexity of SGD for Gradient-Dominated F.pdf
@@ -5134,7 +5134,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['dqn', 'trpo', 'ppo', 'td3']
+* Algorithm: ['td3', 'trpo', 'ppo', 'dqn']
 
 
 ### Surprise-Guided Search for Learning Task Specifications From Demonstrations.pdf
@@ -5152,7 +5152,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### Sym-NCO Leveraging Symmetricity for Neural Combinatorial Optimization.pdf
@@ -5161,7 +5161,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### TTOpt A Maximum Volume Quantized Tensor Train-based Optimization and its Application to Reinforcemen.pdf
@@ -5206,7 +5206,7 @@
 * Code available: No
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### The Nature of Temporal Difference Errors in Multi-step Distributional Reinforcement Learning.pdf
@@ -5215,7 +5215,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### The Phenomenon of Policy Churn.pdf
@@ -5224,7 +5224,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### The Pitfalls of Regularization in Off-Policy TD Learning.pdf
@@ -5242,7 +5242,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### The Role of Baselines in Policy Gradient Optimization.pdf
@@ -5278,7 +5278,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Towards Safe Reinforcement Learning with a Safety Editor Policy.pdf
@@ -5287,7 +5287,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### Towards Skill and Population Curriculum for MARL.pdf
@@ -5305,7 +5305,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### Towards a Standardised Performance Evaluation Protocol for Cooperative MARL.pdf
@@ -5332,7 +5332,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### Transformer-based Working Memory for Multiagent Reinforcement Learning with Action Parsing.pdf
@@ -5350,7 +5350,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['ddpg', 'trpo', 'ppo', 'td3']
+* Algorithm: ['ppo', 'trpo', 'ddpg', 'td3']
 
 
 ### Uncertainty Estimation Using Riemannian Model Dynamics for Offline Reinforcement Learning.pdf
@@ -5359,7 +5359,7 @@
 * Code available: No
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### Uncertainty-Aware Reinforcement Learning for Risk-Sensitive Player Evaluation in Sports Game.pdf
@@ -5368,7 +5368,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### Understanding Deep Neural Function Approximation in Reinforcement Learning via epsilon-Greedy Explor.pdf
@@ -5377,7 +5377,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Understanding the Eluder Dimension.pdf
@@ -5440,7 +5440,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### Using natural language and program abstractions to instill human inductive biases in machines.pdf
@@ -5476,7 +5476,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac']
+* Algorithm: ['sac', 'dqn']
 
 
 ### WebShop Towards Scalable Real-World Web Interaction with Grounded Language Agents.pdf
@@ -5503,7 +5503,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### When to Trust Your Simulator Dynamics-Aware Hybrid Offline-and-Online Reinforcement Learning.pdf
@@ -5521,7 +5521,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['trpo', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'trpo']
 
 
 ### Why So Pessimistic Estimating Uncertainties for Offline RL through Ensembles and Why Their Independe.pdf
@@ -5530,7 +5530,7 @@
 * Code available: No
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### You Cant Count on Luck Why Decision Transformers and RvS Fail in Stochastic Environments.pdf
@@ -5539,7 +5539,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### You Only Live Once Single-Life Reinforcement Learning.pdf
@@ -5548,7 +5548,7 @@
 * Code available: No
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ## Year 2023 (186 RL papers)
@@ -5560,7 +5560,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'trpo', 'ppo']
+* Algorithm: ['ppo', 'trpo', 'dqn']
 
 
 ### A Partially-Supervised Reinforcement Learning Framework for Visual Active Search.pdf
@@ -5587,7 +5587,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Accelerating Value Iteration with Anchoring.pdf
@@ -5596,7 +5596,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### Accountability in Offline Reinforcement Learning Explaining Decisions with a Corpus of Examples.pdf
@@ -5605,7 +5605,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['trpo', 'ppo', 'td3', 'dqn', 'sac']
+* Algorithm: ['trpo', 'dqn', 'td3', 'ppo', 'sac']
 
 
 ### Active Observing in Continuous-time Control.pdf
@@ -5614,7 +5614,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Active Vision Reinforcement Learning under Limited Visual Observability.pdf
@@ -5623,7 +5623,7 @@
 * Code available: No
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['ddpg', 'dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'ddpg', 'sac', 'dqn']
 
 
 ### Adversarial Counterfactual Environment Model Learning.pdf
@@ -5632,7 +5632,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['trpo', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'trpo']
 
 
 ### BIRD Generalizable Backdoor Detection and Removal for Deep Reinforcement Learning.pdf
@@ -5641,7 +5641,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### Bayesian Learning of Optimal Policies in Markov Decision Processes with Countably Infinite State-Spa.pdf
@@ -5650,7 +5650,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### Bayesian Risk-Averse Q-Learning with Streaming Observations.pdf
@@ -5659,7 +5659,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### Behavior Alignment via Reward Function Optimization.pdf
@@ -5668,7 +5668,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Belief Projection-Based Reinforcement Learning for Environments with Delayed Feedback.pdf
@@ -5677,7 +5677,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['trpo', 'ppo', 'td3', 'dqn', 'sac']
+* Algorithm: ['trpo', 'dqn', 'td3', 'ppo', 'sac']
 
 
 ### Beyond Average Return in Markov Decision Processes.pdf
@@ -5686,7 +5686,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Beyond Uniform Sampling Offline Reinforcement Learning with Imbalanced Datasets.pdf
@@ -5695,7 +5695,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo', 'sac', 'td3']
+* Algorithm: ['td3', 'ppo', 'sac', 'dqn']
 
 
 ### Boosting Verification of Deep Reinforcement Learning via Piece-Wise Linear Decision Neural Networks.pdf
@@ -5704,7 +5704,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['ddpg', 'sac', 'ppo']
+* Algorithm: ['ppo', 'ddpg', 'sac']
 
 
 ### Breadcrumbs to the Goal Goal-Conditioned Exploration from Human-in-the-Loop Feedback.pdf
@@ -5713,7 +5713,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### CEIL Generalized Contextual Imitation Learning.pdf
@@ -5722,7 +5722,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['trpo', 'ppo', 'td3', 'dqn', 'sac']
+* Algorithm: ['trpo', 'dqn', 'td3', 'ppo', 'sac']
 
 
 ### CQM Curriculum Reinforcement Learning with a Quantized World Model.pdf
@@ -5731,7 +5731,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### CaMP Causal Multi-policy Planning for Interactive Navigation in  Multi-room Scenes.pdf
@@ -5758,7 +5758,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Combinatorial Optimization with Policy Adaptation using Latent Space Search.pdf
@@ -5767,7 +5767,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### Computing Optimal Equilibria and Mechanisms via Learning in Zero-Sum Extensive-Form Games.pdf
@@ -5785,7 +5785,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### Consistent Aggregation of Objectives with Diverse Time Preferences Requires Non-Markovian Rewards.pdf
@@ -5794,7 +5794,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### Constrained Policy Optimization with Explicit Behavior Density For Offline Reinforcement Learning.pdf
@@ -5803,7 +5803,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo', 'td3']
+* Algorithm: ['td3', 'ppo', 'dqn']
 
 
 ### Context Shift Reduction for Offline Meta-Reinforcement Learning.pdf
@@ -5812,7 +5812,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Contrastive Modules with Temporal Attention for Multi-Task Reinforcement Learning.pdf
@@ -5821,7 +5821,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### Contrastive Retrospection honing in on critical steps for rapid learning and generalization in RL.pdf
@@ -5830,7 +5830,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo', 'a2c']
+* Algorithm: ['ppo', 'a2c', 'sac']
 
 
 ### Convergence of Actor-Critic with Multi-Layer Neural Networks.pdf
@@ -5839,7 +5839,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Counterfactual-Augmented Importance Sampling for Semi-Offline Policy Evaluation.pdf
@@ -5857,7 +5857,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Cross-Domain Policy Adaptation via Value-Guided Data Filtering.pdf
@@ -5866,7 +5866,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Cross-Episodic Curriculum for Transformer Agents.pdf
@@ -5875,7 +5875,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Decision Stacks Flexible Reinforcement Learning via Modular Generative Models.pdf
@@ -5884,7 +5884,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### Decompose a Task into Generalizable Subtasks in Multi-Agent Reinforcement Learning.pdf
@@ -5902,7 +5902,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### DeepACO Neural-enhanced Ant Systems for Combinatorial Optimization.pdf
@@ -5920,7 +5920,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo', 'td3']
+* Algorithm: ['td3', 'ppo', 'dqn']
 
 
 ### Diffusion Model is an Effective Planner and Data Synthesizer for Multi-Task Reinforcement Learning.pdf
@@ -5929,7 +5929,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Discovering General Reinforcement Learning Algorithms with Adversarial Environment Design.pdf
@@ -5947,7 +5947,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['ppo', 'dreamer', 'td3', 'dqn', 'a2c']
+* Algorithm: ['dreamer', 'dqn', 'td3', 'ppo', 'a2c']
 
 
 ### Distributional Model Equivalence for Risk-Sensitive Reinforcement Learning.pdf
@@ -5956,7 +5956,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Distributional Pareto-Optimal Multi-Objective Reinforcement Learning.pdf
@@ -5965,7 +5965,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### Distributional Policy Evaluation a Maximum Entropy approach to Representation Learning.pdf
@@ -5983,7 +5983,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### Double Gumbel Q-Learning.pdf
@@ -5992,7 +5992,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['trpo', 'ppo', 'ddpg', 'td3', 'dqn', 'sac']
+* Algorithm: ['trpo', 'ddpg', 'dqn', 'td3', 'ppo', 'sac']
 
 
 ### Double Pessimism is Provably Efficient for Distributionally Robust Offline Reinforcement Learning Ge.pdf
@@ -6010,7 +6010,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### ELDEN Exploration via Local Dependencies.pdf
@@ -6037,7 +6037,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Efficient Symbolic Policy Learning with Differentiable Symbolic Expression.pdf
@@ -6046,7 +6046,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['trpo', 'ppo', 'ddpg', 'td3', 'dqn', 'sac', 'a2c']
+* Algorithm: ['trpo', 'ddpg', 'dqn', 'td3', 'ppo', 'sac', 'a2c']
 
 
 ### Elastic Decision Transformer.pdf
@@ -6055,7 +6055,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### End-to-End Meta-Bayesian Optimisation with Transformer Neural Processes.pdf
@@ -6073,7 +6073,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### FlowPG Action-constrained Policy Gradient with Normalizing Flows.pdf
@@ -6082,7 +6082,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['ddpg', 'dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'ddpg', 'sac', 'dqn']
 
 
 ### For SALE State-Action Representation Learning for Deep Reinforcement Learning.pdf
@@ -6091,7 +6091,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['trpo', 'ppo', 'td3', 'dqn', 'sac']
+* Algorithm: ['trpo', 'dqn', 'td3', 'ppo', 'sac']
 
 
 ### Fractal Landscapes in Policy Optimization.pdf
@@ -6100,7 +6100,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'trpo', 'sac', 'ppo']
+* Algorithm: ['ppo', 'trpo', 'sac', 'dqn']
 
 
 ### Game Solving with Online Fine-Tuning.pdf
@@ -6118,7 +6118,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### Generating Behaviorally Diverse Policies with Latent Diffusion Models.pdf
@@ -6127,7 +6127,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### Goal-conditioned Offline Planning from Curious Exploration.pdf
@@ -6136,7 +6136,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['ppo', 'ddpg', 'td3', 'dqn', 'sac']
+* Algorithm: ['ddpg', 'dqn', 'td3', 'ppo', 'sac']
 
 
 ### Gradient Informed Proximal Policy Optimization.pdf
@@ -6145,7 +6145,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['trpo', 'ppo']
+* Algorithm: ['ppo', 'trpo']
 
 
 ### Guarantees for Self-Play in Multiplayer Games via Polymatrix Decomposability.pdf
@@ -6163,7 +6163,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### H-InDex Visual Reinforcement Learning with Hand-Informed Representations for Dexterous Manipulation.pdf
@@ -6181,7 +6181,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### Hierarchical Adaptive Value Estimation for Multi-modal Visual Reinforcement Learning.pdf
@@ -6190,7 +6190,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Hierarchical Multi-Agent Skill Discovery.pdf
@@ -6199,7 +6199,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### How to Fine-tune the Model Unified Model Shift and Model Bias Policy Optimization.pdf
@@ -6208,7 +6208,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'trpo', 'sac', 'ppo']
+* Algorithm: ['ppo', 'trpo', 'sac', 'dqn']
 
 
 ### Hybrid Search for Efficient Planning with Completeness Guarantees.pdf
@@ -6244,7 +6244,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['ddpg', 'ppo', 'sac', 'td3']
+* Algorithm: ['ppo', 'ddpg', 'sac', 'td3']
 
 
 ### Interpretable and Explainable Logical Policies via Neurally Guided Symbolic Abstraction.pdf
@@ -6253,7 +6253,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### Inverse Preference Learning Preference-based RL without a Reward Function.pdf
@@ -6262,7 +6262,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['dqn', 'trpo', 'sac', 'ppo']
+* Algorithm: ['ppo', 'trpo', 'sac', 'dqn']
 
 
 ### Inverse Reinforcement Learning with the Average Reward Criterion.pdf
@@ -6271,7 +6271,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### Is RLHF More Difficult than Standard RL A Theoretical Perspective.pdf
@@ -6280,7 +6280,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### Iterative Reachability Estimation for Safe Reinforcement Learning.pdf
@@ -6289,7 +6289,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['trpo', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'trpo']
 
 
 ### Iteratively Learn Diverse Strategies with State Distance Information.pdf
@@ -6325,7 +6325,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### Learning Better with Less Effective Augmentation for Sample-Efficient Visual Reinforcement Learning.pdf
@@ -6334,7 +6334,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### Learning Dynamic Attribute-factored World Models for Efficient Multi-object Reinforcement Learning.pdf
@@ -6352,7 +6352,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Learning Regularized Monotone Graphon Mean-Field Games.pdf
@@ -6370,7 +6370,7 @@
 * Code available: No
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### Learning from Active Human Involvement through Proxy Value Propagation.pdf
@@ -6379,7 +6379,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo', 'sac', 'td3']
+* Algorithm: ['td3', 'ppo', 'sac', 'dqn']
 
 
 ### Learning to Influence Human Behavior with Offline Reinforcement Learning.pdf
@@ -6397,7 +6397,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### Look Beneath the Surface Exploiting Fundamental Symmetry for Sample-Efficient Offline RL.pdf
@@ -6406,7 +6406,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo', 'td3']
+* Algorithm: ['td3', 'ppo', 'dqn']
 
 
 ### Loss Dynamics of Temporal Difference Reinforcement Learning.pdf
@@ -6415,7 +6415,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### MIMEx Intrinsic Rewards from Masked Input Modeling.pdf
@@ -6424,7 +6424,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['ddpg', 'ppo']
+* Algorithm: ['ppo', 'ddpg']
 
 
 ### Macro Placement by Wire-Mask-Guided Black-Box Optimization.pdf
@@ -6433,7 +6433,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### Managing Temporal Resolution in Continuous Value Estimation A Fundamental Trade-off.pdf
@@ -6442,7 +6442,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Maximum State Entropy Exploration using Predecessor and Successor Representations.pdf
@@ -6451,7 +6451,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo', 'sac', 'td3']
+* Algorithm: ['td3', 'ppo', 'sac', 'dqn']
 
 
 ### MoVie Visual Model-Based Policy Adaptation for View Generalization.pdf
@@ -6469,7 +6469,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['ppo', 'ddpg', 'td3', 'sac', 'a2c']
+* Algorithm: ['ddpg', 'td3', 'ppo', 'a2c', 'sac']
 
 
 ### Model-Free Active Exploration in Reinforcement Learning.pdf
@@ -6478,7 +6478,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Multi-Agent First Order Constrained Optimization in Policy Space.pdf
@@ -6487,7 +6487,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### Multi-Objective Intrinsic Reward Learning for Conversational Recommender Systems.pdf
@@ -6505,7 +6505,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### Natural Language Instruction-following with Task-related Language Development and Translation.pdf
@@ -6523,7 +6523,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Offline RL with Discrete Proxy Representations for Generalizability in POMDPs.pdf
@@ -6541,7 +6541,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'a3c', 'sac']
+* Algorithm: ['a3c', 'sac', 'dqn']
 
 
 ### Offline Reinforcement Learning with Differential Privacy.pdf
@@ -6550,7 +6550,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### On Sample-Efficient Offline Reinforcement Learning Data Diversity Posterior Sampling and Beyond.pdf
@@ -6559,7 +6559,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### On the Importance of Exploration for Generalization in Reinforcement Learning.pdf
@@ -6568,7 +6568,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo', 'dreamer']
+* Algorithm: ['ppo', 'dreamer', 'dqn']
 
 
 ### On the Properties of Kullback-Leibler Divergence Between Multivariate Gaussian Distributions.pdf
@@ -6586,7 +6586,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo', 'sac', 'td3']
+* Algorithm: ['td3', 'ppo', 'sac', 'dqn']
 
 
 ### Optimal Exploration for Model-Based RL in Nonlinear Systems.pdf
@@ -6604,7 +6604,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo', 'pets']
+* Algorithm: ['ppo', 'sac', 'pets']
 
 
 ### Optimistic Exploration in Reinforcement Learning Using Symbolic Model Estimates.pdf
@@ -6631,7 +6631,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['trpo', 'ppo']
+* Algorithm: ['ppo', 'trpo']
 
 
 ### PID-Inspired Inductive Biases for Deep Reinforcement Learning in Partially Observable Control Tasks.pdf
@@ -6640,7 +6640,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['ppo', 'sac', 'td3', 'a2c']
+* Algorithm: ['ppo', 'a2c', 'sac', 'td3']
 
 
 ### PLASTIC Improving Input and Label Plasticity for Sample Efficient Reinforcement Learning.pdf
@@ -6649,7 +6649,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo', 'dreamer']
+* Algorithm: ['ppo', 'dreamer', 'sac', 'dqn']
 
 
 ### Performance Bounds for Policy-Based Average Reward Reinforcement Learning Algorithms.pdf
@@ -6658,7 +6658,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac']
+* Algorithm: ['sac', 'dqn']
 
 
 ### Pitfall of Optimism Distributional Reinforcement Learning by Randomizing Risk Criterion.pdf
@@ -6667,7 +6667,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo', 'a2c']
+* Algorithm: ['ppo', 'a2c', 'sac', 'dqn']
 
 
 ### Policy Finetuning in Reinforcement Learning via Design of Experiments using Offline Data.pdf
@@ -6685,7 +6685,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'trpo', 'ppo']
+* Algorithm: ['ppo', 'trpo', 'dqn']
 
 
 ### Posterior Sampling for Competitive RL Function Approximation and Partial Observation.pdf
@@ -6694,7 +6694,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Posterior Sampling with Delayed Feedback for Reinforcement Learning with Linear Function Approximati.pdf
@@ -6703,7 +6703,7 @@
 * Code available: No
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Prioritizing Samples in Reinforcement Learning with Reducible Loss.pdf
@@ -6712,7 +6712,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['ddpg', 'dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'ddpg', 'sac', 'dqn']
 
 
 ### Provably Efficient Algorithm for Nonstationary Low-Rank MDPs.pdf
@@ -6739,7 +6739,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### Provably Safe Reinforcement Learning with Step-wise Violation Constraints.pdf
@@ -6757,7 +6757,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### ReDS Offline RL With Heteroskedastic Datasets via Support Constraints.pdf
@@ -6784,7 +6784,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['ddpg', 'sac', 'ppo']
+* Algorithm: ['ppo', 'ddpg', 'sac']
 
 
 ### Refining Diffusion Planner for Reliable Behavior Synthesis by Automatic Detection of Infeasible Plan.pdf
@@ -6811,7 +6811,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Reinforcement Learning with Simple Sequence Priors.pdf
@@ -6820,7 +6820,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Reining Generalization in Offline Reinforcement Learning via Representation Distinction.pdf
@@ -6829,7 +6829,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo', 'sac', 'td3']
+* Algorithm: ['td3', 'ppo', 'sac', 'dqn']
 
 
 ### Replicable Reinforcement Learning.pdf
@@ -6838,7 +6838,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### Revisiting the Minimalist Approach to Offline Reinforcement Learning.pdf
@@ -6847,7 +6847,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['trpo', 'ppo', 'td3', 'dqn', 'sac']
+* Algorithm: ['trpo', 'dqn', 'td3', 'ppo', 'sac']
 
 
 ### Rewiring Neurons in Non-Stationary Environments.pdf
@@ -6865,7 +6865,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac']
+* Algorithm: ['sac', 'dqn']
 
 
 ### SPQR Controlling Q-ensemble Independence with Spiked Random Model for Reinforcement Learning.pdf
@@ -6874,7 +6874,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo', 'a2c']
+* Algorithm: ['ppo', 'a2c', 'sac', 'dqn']
 
 
 ### STEVE-1 A Generative Model for Text-to-Behavior in Minecraft.pdf
@@ -6919,7 +6919,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Seeing is not Believing Robust Reinforcement Learning against Spurious Correlation.pdf
@@ -6946,7 +6946,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['trpo', 'ppo', 'pets', 'dreamer', 'dqn', 'sac']
+* Algorithm: ['trpo', 'dreamer', 'dqn', 'ppo', 'pets', 'sac']
 
 
 ### Semantic HELM A Human-Readable Memory for Reinforcement Learning.pdf
@@ -6955,7 +6955,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo', 'dreamer']
+* Algorithm: ['ppo', 'dreamer', 'sac', 'dqn']
 
 
 ### Small batch deep reinforcement learning.pdf
@@ -6964,7 +6964,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Spectral Entry-wise Matrix Estimation for Low-Rank Reinforcement Learning.pdf
@@ -6973,7 +6973,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### State-Action Similarity-Based Representations for Off-Policy Evaluation.pdf
@@ -6982,7 +6982,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### State2Explanation Concept-Based Explanations to Benefit Agent Learning and User Understanding.pdf
@@ -7000,7 +7000,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['trpo', 'sac', 'ppo', 'pets']
+* Algorithm: ['ppo', 'sac', 'pets', 'trpo']
 
 
 ### Successor-Predecessor Intrinsic Exploration.pdf
@@ -7009,7 +7009,7 @@
 * Code available: No
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Suggesting Variable Order for Cylindrical Algebraic Decomposition via Reinforcement Learning.pdf
@@ -7018,7 +7018,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo', 'a2c']
+* Algorithm: ['ppo', 'a2c', 'sac', 'dqn']
 
 
 ### Supervised Pretraining Can Learn In-Context Reinforcement Learning.pdf
@@ -7036,7 +7036,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo', 'sac', 'td3']
+* Algorithm: ['td3', 'ppo', 'sac', 'dqn']
 
 
 ### Survival Instinct in Offline Reinforcement Learning.pdf
@@ -7045,7 +7045,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Swarm Reinforcement Learning for Adaptive Mesh Refinement.pdf
@@ -7054,7 +7054,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### TD Convergence An Optimization Perspective.pdf
@@ -7063,7 +7063,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### Tackling Heavy-Tailed Rewards in Reinforcement Learning with Function Approximation Minimax Optimal .pdf
@@ -7081,7 +7081,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['trpo', 'ppo', 'td3', 'dqn', 'sac']
+* Algorithm: ['trpo', 'dqn', 'td3', 'ppo', 'sac']
 
 
 ### Team-PSRO for Learning Approximate TMECor in Large Team Games via Cooperative Reinforcement Learning.pdf
@@ -7108,7 +7108,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['ddpg', 'ppo']
+* Algorithm: ['ppo', 'ddpg']
 
 
 ### Thinker Learning to Plan and Act.pdf
@@ -7135,7 +7135,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo', 'sac', 'td3']
+* Algorithm: ['td3', 'ppo', 'sac', 'dqn']
 
 
 ### Truncating Trajectories in Monte Carlo Policy Evaluation an Adaptive Approach.pdf
@@ -7153,7 +7153,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['trpo', 'sac', 'ppo', 'a2c']
+* Algorithm: ['ppo', 'a2c', 'sac', 'trpo']
 
 
 ### Understanding and Addressing the Pitfalls of Bisimulation-based Representations in Offline Reinforce.pdf
@@ -7171,7 +7171,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### VOCE Variational Optimization with Conservative Estimation for Offline Safe Reinforcement Learning.pdf
@@ -7180,7 +7180,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['ppo', 'ddpg', 'td3', 'dqn', 'sac']
+* Algorithm: ['ddpg', 'dqn', 'td3', 'ppo', 'sac']
 
 
 ### Wasserstein Gradient Flows for Optimizing Gaussian Mixture Policies.pdf
@@ -7189,7 +7189,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['trpo', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'trpo']
 
 
 ### When Demonstrations meet Generative World Models A Maximum Likelihood Framework for Offline Inverse .pdf
@@ -7198,7 +7198,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### Winner Takes It All Training Performant RL Populations for Combinatorial Optimization.pdf
@@ -7207,7 +7207,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### Would I have gotten that reward Long-term credit assignment by counterfactual contribution analysis.pdf
@@ -7225,7 +7225,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['td3', 'dreamer']
+* Algorithm: ['dreamer', 'td3']
 
 
 ## Year 2024 (41 RL papers)
@@ -7237,7 +7237,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### Automated Multi-level Preference for MLLMs.pdf
@@ -7273,7 +7273,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### Corruption-Robust Linear Bandits Minimax Optimality and Gap-Dependent Misspecification.pdf
@@ -7300,7 +7300,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['ddpg', 'sac', 'ppo']
+* Algorithm: ['ppo', 'ddpg', 'sac']
 
 
 ### Dynamic Model Predictive Shielding for Provably Safe Reinforcement Learning.pdf
@@ -7309,7 +7309,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['ppo', 'dreamer', 'ddpg', 'td3', 'sac']
+* Algorithm: ['dreamer', 'ddpg', 'td3', 'ppo', 'sac']
 
 
 ### Efficient Recurrent Off-Policy RL Requires a Context-Encoder-Specific Learning Rate.pdf
@@ -7318,7 +7318,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['ppo', 'td3', 'dqn', 'sac', 'a2c']
+* Algorithm: ['dqn', 'td3', 'ppo', 'a2c', 'sac']
 
 
 ### Enhancing Robustness of Graph Neural Networks on Social Media with Explainable Inverse Reinforcement.pdf
@@ -7327,7 +7327,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### Episodic Future Thinking Mechanism for Multi-agent Reinforcement Learning.pdf
@@ -7336,7 +7336,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['ppo', 'dreamer', 'ddpg', 'dqn', 'sac']
+* Algorithm: ['dreamer', 'ddpg', 'dqn', 'ppo', 'sac']
 
 
 ### Excluding the Irrelevant Focusing Reinforcement Learning through Continuous Action Masking.pdf
@@ -7345,7 +7345,7 @@
 * Code available: No
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Federated Ensemble-Directed Offline Reinforcement Learning.pdf
@@ -7354,7 +7354,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['trpo', 'ppo', 'td3', 'dqn', 'sac']
+* Algorithm: ['trpo', 'dqn', 'td3', 'ppo', 'sac']
 
 
 ### FlexPlanner Flexible 3D Floorplanning via Deep Reinforcement Learning in Hybrid Action Space with Mu.pdf
@@ -7363,7 +7363,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Focus On What Matters Separated Models For Visual-Based RL Generalization.pdf
@@ -7372,7 +7372,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### GenRL Multimodal-foundation world models for generalization in embodied agents.pdf
@@ -7381,7 +7381,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['ppo', 'td3', 'dreamer']
+* Algorithm: ['ppo', 'dreamer', 'td3']
 
 
 ### Going Beyond Heuristics by Imposing Policy Improvement as a Constraint.pdf
@@ -7390,7 +7390,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['trpo', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'trpo']
 
 
 ### Is Mamba Compatible with Trajectory Optimization in Offline Reinforcement Learning.pdf
@@ -7399,7 +7399,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### KALM Knowledgeable Agents by Offline Reinforcement Learning from Large Language Model Rollouts.pdf
@@ -7408,7 +7408,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo', 'td3']
+* Algorithm: ['td3', 'ppo', 'dqn']
 
 
 ### Learning Formal Mathematics From Intrinsic Motivation.pdf
@@ -7426,7 +7426,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['trpo', 'ppo', 'td3', 'dqn', 'sac']
+* Algorithm: ['trpo', 'dqn', 'td3', 'ppo', 'sac']
 
 
 ### Learning Successor Features the Simple Way.pdf
@@ -7435,7 +7435,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['ddpg', 'dqn', 'ppo']
+* Algorithm: ['ppo', 'ddpg', 'dqn']
 
 
 ### Learning to Balance Altruism and Self-interest Based on Empathy in Mixed-Motive Games.pdf
@@ -7444,7 +7444,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo', 'a2c']
+* Algorithm: ['ppo', 'a2c', 'sac']
 
 
 ### Learning to Cooperate with Humans using Generative Agents.pdf
@@ -7471,7 +7471,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['trpo', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'trpo']
 
 
 ### Meta-Reinforcement Learning with Universal Policy Adaptation Provable Near-Optimality under All-task.pdf
@@ -7480,7 +7480,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['trpo', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'trpo']
 
 
 ### Multi-Reward Best Policy Identification.pdf
@@ -7489,7 +7489,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### Multi-turn Reinforcement Learning with Preference Human Feedback.pdf
@@ -7498,7 +7498,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['trpo', 'ppo']
+* Algorithm: ['ppo', 'trpo']
 
 
 ### Off-Policy Selection for Initiating Human-Centric Experimental Design.pdf
@@ -7507,7 +7507,7 @@
 * Code available: No
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### On the Curses of Future and History in Future-dependent Value Functions for Off-policy Evaluation.pdf
@@ -7525,7 +7525,7 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### Provably Efficient Reinforcement Learning with Multinomial Logit Function Approximation.pdf
@@ -7534,7 +7534,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'ppo']
+* Algorithm: ['ppo', 'dqn']
 
 
 ### REBEL Reinforcement Learning via Regressing Relative Rewards.pdf
@@ -7552,7 +7552,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### Reinforcement Learning with Lookahead Information.pdf
@@ -7561,7 +7561,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Sample-Efficient Agnostic Boosting.pdf
@@ -7579,7 +7579,7 @@
 * Code available: No
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']
 
 
 ### Uncertainty-based Offline Variational Bayesian Reinforcement Learning for Robustness under Diverse D.pdf
@@ -7588,7 +7588,7 @@
 * Code available: Yes
 * Hyperparameters detailed: Yes
 * Environment version specified: No
-* Algorithm: ['dqn', 'sac', 'ppo']
+* Algorithm: ['ppo', 'sac', 'dqn']
 
 
 ### Verified Safe Reinforcement Learning  for Neural Network Dynamic Models.pdf
@@ -7597,4 +7597,4 @@
 * Code available: Yes
 * Hyperparameters detailed: No
 * Environment version specified: No
-* Algorithm: ['sac', 'ppo']
+* Algorithm: ['ppo', 'sac']

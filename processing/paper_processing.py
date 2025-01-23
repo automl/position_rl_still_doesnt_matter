@@ -510,17 +510,17 @@ class PaperAnalyzer:
         """Save detailed results to JSON file."""
         base_name = output_path.rsplit(".", 1)[0]
 
-        # Save full results
-        with open(output_path, "w") as f:
-            json.dump(
-                {
-                    "detailed_results": dict(self.results),
-                    "summary": self.generate_summary(),
-                },
-                f,
-                indent=2,
-            )
-        console.print(f"[green]Full results saved to {output_path}[/green]")
+        # # Save full results
+        # with open(output_path, "w") as f:
+        #     json.dump(
+        #         {
+        #             "detailed_results": dict(self.results),
+        #             "summary": self.generate_summary(),
+        #         },
+        #         f,
+        #         indent=2,
+        #     )
+        # console.print(f"[green]Full results saved to {output_path}[/green]")
 
         # Save RL papers summary
         rl_papers = {}

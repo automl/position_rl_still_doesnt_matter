@@ -8,3 +8,4 @@ pandas
 plotly
 ipykernel
 pip
+dash

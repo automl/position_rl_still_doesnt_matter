@@ -20,22 +20,12 @@ def parse_manuals(base_path):
             else:
                 print(f"File {file} already parsed.")
 
-if __name__ == "__main__":
-    import argparse
-
-    parser = argparse.ArgumentParser(description='ML Paper Downloader')
-    parser.add_argument('--base-path', type=str, default='ml_papers/manual/',
-                      help='Location of files to parse')
-
-    args = parser.parse_args()
-
-    parse_manuals(args.base_path)
-
+def make_dataset(base_path):
     dfs = []
-    for file in os.listdir(args.base_path):
+    for file in os.listdir(base_path):
         if file.endswith(".json"):
-            print(Path(args.base_path)/file)
-            df = pd.read_json(Path(args.base_path)/file)
+            print(Path(base_path)/file)
+            df = pd.read_json(Path(base_path)/file)
             df["year"] = file.split("_")[-1].split(".")[0]
             df["conference"] = file.split("_")[0]
             df["conf_id"] = df["conference"] + "_" + df["year"]
@@ -78,9 +68,9 @@ if __name__ == "__main__":
     df = pd.concat([df, pd.DataFrame(algorithm_dict)], axis=1)
 
     df.drop(columns=["keywords", "algorithms"], inplace=True)
-    if Path("manual_paper_annotations.csv").exists():
-        os.remove("manual_paper_annotations.csv")
-    df.to_csv("manual_paper_annotations.csv", index=False)
+    if Path("processed_data/manual_paper_annotations.csv").exists():
+        os.remove("processed_data/manual_paper_annotations.csv")
+    df.to_csv("processed_data/manual_paper_annotations.csv", index=False)
 
     # make files of keywords for prompting llms. One line per paper, all keywords separated by commas
     # one file for each conference
@@ -88,10 +78,23 @@ if __name__ == "__main__":
         for year in df["year"].unique():
             filtered = df[(df["year"]==year) & (df["conference"]==conf)]
             if not filtered.empty:
-                with open(Path(args.base_path)/f"manual_paper_keywords_{conf}_{year}.txt", "w") as f: 
+                with open(f"processed_data/manual_paper_keywords_{conf}_{year}.txt", "w") as f: 
                     for _, paper in filtered.iterrows():
                         keywords = []
                         for i in range(max_keywords):
                             keywords.append(paper[f"keyword_{i}"])
                         keywords = [k for k in keywords if k!=""]
                         f.write(",".join(keywords) + "\n")
+
+
+if __name__ == "__main__":
+    import argparse
+
+    parser = argparse.ArgumentParser(description='ML Paper Downloader')
+    parser.add_argument('--base-path', type=str, default='ml_papers/manual/',
+                      help='Location of files to parse')
+
+    args = parser.parse_args()
+
+    parse_manuals(args.base_path)
+    make_dataset(args.base_path)

@@ -141,51 +141,27 @@ class NeurIPSScraper(OpenReviewScraper):
             return self._get_paper_links(year)
         # use proceedings
         else:
-            papers = []
-            response = self.session.get(conference_url)
-            if response.status_code == 404:
-                    print(f"Conference URL not found: {conference_url}")
-                    return papers
-
-            soup = BeautifulSoup(response.text, "html.parser")
-
-            for paper in soup.find_all("li", class_="none"):
-                    title = paper.a.getText()
-                    pdf_link = paper.a.get("href").title()
-
-                    papers.append(
-                                {
-                                    "title": title,
-                                    "pdf_url": urljoin("https://papers.nips.cc", pdf_link),
-                                    "year": str(year),
-                                }
-                            )
             try:
+                papers = []
                 response = self.session.get(conference_url)
                 if response.status_code == 404:
-                    print(f"Conference URL not found: {conference_url}")
-                    return papers
+                        print(f"Conference URL not found: {conference_url}")
+                        return papers
 
                 soup = BeautifulSoup(response.text, "html.parser")
 
-                for paper in soup.find_all("div", class_="paper"):
-                    title_elem = paper.find("p", class_="title")
-                    pdf_link = paper.find("a", string="Download PDF")
+                for paper in soup.find_all("li", class_="none"):
+                        title = paper.a.getText()
+                        paper_id = paper.a.get("href").title().split("/")[-1].split("-")[0]
+                        pdf_link = f"https://proceedings.neurips.cc/paper_files/paper/{year}/file/{paper_id.lower()}-Paper.pdf"
 
-                    if title_elem and pdf_link:
-                        volume = conference_url.split("/")[-1].lstrip("v")
-                        year = next(
-                            (y for y, v in self.volume_dict.items() if str(v) == volume),
-                            None,
-                        )
-                        if year:
-                            papers.append(
-                                {
-                                    "title": title_elem.text.strip(),
-                                    "pdf_url": urljoin(conference_url, pdf_link["href"]),
-                                    "year": str(year),
-                                }
-                            )
+                        papers.append(
+                                    {
+                                        "title": title,
+                                        "pdf_url": pdf_link,
+                                        "year": str(year),
+                                    }
+                                )
 
             except Exception as e:
                 print(f"Error scraping NeurIPS {year} {conference_url}: {str(e)}")
@@ -197,15 +173,50 @@ class ICLRScraper(OpenReviewScraper):
     api_cutoff_year = 2024
 
     def get_conference_urls(self, start_year: int) -> List[str]:
-        return [
+        earlier = [f"https://iclr.cc/Conferences/{year}/Schedule?type=Poster" for year in range(start_year, 2021)]
+        later = [
             f"https://api.openreview.net/notes?content.venue=ICLR+{year}+Conference&details=replyCount&offset=0&limit=1000&invitation=ICLR.cc/{year}/Conference/-/Blind_Submission"
-            for year in range(start_year, 2026)
+            for year in range(2021, 2026)
         ]
+        return earlier + later
 
     def get_paper_links(self, conference_url: str) -> List[Dict[str, str]]:
-        year = int(conference_url.split(".cc")[1].split("/")[1])
-        return self._get_paper_links(year)
+        year_base = conference_url.strip().split(".cc")[1].split("/")
+        try:
+            year = int(year_base[-1])
+        except:
+            year = int(year_base[2])
 
+        # use openreview
+        if year >= 2021:
+            return self._get_paper_links(year)
+        # use proceedings
+        else:
+            try:
+                papers = []
+                response = self.session.get(conference_url)
+                if response.status_code == 404:
+                        print(f"Conference URL not found: {conference_url}")
+                        return papers
+
+                soup = BeautifulSoup(response.text, "html.parser")
+
+                for paper in soup.find_all("div", class_="maincard narrower poster"):
+                    title = paper.find("div", class_="maincardBody").getText()
+                    pdf_link_elem = paper.find("span", class_="nowrap")
+                    pdf_link = pdf_link_elem.a["href"].replace("forum", "pdf")
+
+                    papers.append(
+                                    {
+                                        "title": title,
+                                        "pdf_url": pdf_link,
+                                        "year": str(year),
+                                    }
+                                )
+
+            except Exception as e:
+                print(f"Error scraping NeurIPS {year} {conference_url}: {str(e)}")
+            return papers
 
 class ICMLScraper(ConferenceScraper):
     conference_name = "icml"
@@ -351,7 +362,7 @@ class MLPaperProcessor:
             response = requests.get(paper_info["pdf_url"], stream=True)
             if response.status_code != 200:
                 print(
-                    f"\nFailed to download {paper_info['title']}: HTTP {response.status_code}"
+                    f"\nFailed to download {paper_info['title']} at {paper_info['pdf_url']}: HTTP {response.status_code}"
                 )
                 return None
 
@@ -379,7 +390,7 @@ class MLPaperProcessor:
             print(f"\nError downloading {paper_info['title']}: {str(e)}")
             return None
 
-    def process_all_papers(self, start_year: int = 2018, conferences=None):
+    def process_all_papers(self, start_year: int = 2018, conferences=None, years=None):
         """Process papers from specified conferences."""
         all_papers = []
 
@@ -393,6 +404,13 @@ class MLPaperProcessor:
 
             scraper = self.scrapers[conference]
             conference_urls = scraper.get_conference_urls(start_year)
+            if years is not None:
+                year_urls = []
+                for year in years:
+                    year_urls.extend(
+                        [url for url in conference_urls if str(year) in url]
+                    )
+                conference_urls = year_urls
 
             for url in conference_urls:
                 papers = scraper.get_paper_links(url)
@@ -411,8 +429,6 @@ class MLPaperProcessor:
         new_downloads = 0
         cached_papers = 0
         predownloaded = len([p for p in all_papers if paper.get("downloaded", False)])
-        print(all_papers[0])
-        print(all_papers[0].get("downloaded", False))
 
         with ThreadPoolExecutor(max_workers=4) as executor:
             futures = [
@@ -420,7 +436,6 @@ class MLPaperProcessor:
                 for paper in all_papers
                 if not paper.get("downloaded", False)
             ]
-            print(len(futures))
             with tqdm(
                 total=len(futures),
                 desc="Overall progress",
