@@ -536,7 +536,7 @@ class PaperAnalyzer:
                     "algorithms": info.get("algorithms", ["Not specified"]),
                 }
                 for info in papers.values()
-                # if info['is_rl']
+                if info['is_rl']
             ]
 
         rl_papers_path = f"{base_name}_rl_papers.json"
