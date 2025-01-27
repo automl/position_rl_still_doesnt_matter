@@ -24,7 +24,6 @@ def make_dataset(base_path):
     dfs = []
     for file in os.listdir(base_path):
         if file.endswith(".json"):
-            print(Path(base_path)/file)
             df = pd.read_json(Path(base_path)/file)
             df["year"] = file.split("_")[-1].split(".")[0]
             df["conference"] = file.split("_")[0]
