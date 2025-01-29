@@ -1,4 +1,4 @@
-# ALL RLC 2024 Papers
+[# ALL RLC 2024 Papers
 
 ### A Batch Sequential Halving Algorithm without Performance Degradation
 Link: https://rlj.cs.umass.edu/2024/papers/Paper314.html
@@ -1316,3 +1316,170 @@ Code: no
 Env: custom
 Hyperparameters: in appendix
 
+
+### The Role of Inherent Bellman Error in Offline Reinforcement Learning with Linear Function Approximation
+Link: https://rlj.cs.umass.edu/2024/papers/Paper38.html
+Keywords:
+Abstract: In this paper, we study the offline RL problem with linear function approximation. Our main structural assumption is that the MDP has low inherent Bellman error, which stipulates that linear value functions have linear Bellman backups with respect to the greedy policy. This assumption is natural in that it is essentially the minimal assumption required for value iteration to succeed. We give a computationally efficient algorithm which outputs a policy whose value is at least that of any policy which is well-covered by the dataset, known as a single-policy coverage condition. Even in the setting when the inherent Bellman error is 0 (termed linear Bellman completeness), our algorithm yields the first known guarantee under single-policy coverage. In the setting of positive inherent Bellman error , we show that the suboptimality error of our algorithm scales with . Furthermore, we prove that the scaling of the suboptimality with cannot be improved for any algorithm. Our lower bound stands in contrast to many other settings in reinforcement learning with misspecification, where one can typically obtain performance that degrades linearly with the misspecification error.               
+
+Research goal:
+Empirical: no
+Algorithms: NA
+Seeds: NA
+Code: NA
+Env: NA
+Hyperparameters: NA
+
+
+### Three Dogmas of Reinforcement Learning
+Link: https://rlj.cs.umass.edu/2024/papers/Paper89.html
+Keywords:
+Abstract: Modern reinforcement learning has been conditioned by at least three dogmas. The first is the environment spotlight, which refers to our tendency to focus on modeling environments rather than agents. The second is our treatment of learning as finding the solution to a task, rather than adaptation. The third is the reward hypothesis, which states that all goals and purposes can be well thought of as maximization of a reward signal. These three dogmas shape much of what we think of as the science of reinforcement learning. While each of the dogmas have played an important role in developing the field, it is time we bring them to the surface and reflect on whether they belong as basic ingredients of our scientific paradigm. In order to realize the potential of reinforcement learning as a canonical frame for researching intelligent agents, we suggest that it is time we shed dogmas one and two entirely, and embrace a nuanced approach to the third.               
+
+Research goal:
+Empirical: no
+Algorithms: NA
+Seeds: NA
+Code: NA
+Env: NA
+Hyperparameters: NA
+
+
+### Tiered Reward: Designing Rewards for Specification and Fast Learning of Desired Behavior
+Link: https://rlj.cs.umass.edu/2024/papers/Paper159.html
+Keywords:
+Abstract: Reinforcement-learning agents seek to maximize a reward signal through environmental interactions. As humans, our job in the learning process is to design reward functions to express desired behavior and enable the agent to learn such behavior swiftly. However, designing good reward functions to induce the desired behavior is generally hard, let alone the question of which rewards make learning fast. In this work, we introduce a family of a reward structures we call Tiered Reward that resolves both of these questions. We consider the reward-design problem in tasks formulated as reaching desirable states and avoiding undesirable states. To start, we propose a strict partial ordering of the policy space to resolve trade-offs in behavior preference. We prefer policies that reach the good states faster and with higher probability while avoiding the bad states longer. Next, we introduce Tiered Reward, a class of environment-independent reward functions and show it is guaranteed to induce policies that are Pareto-optimal according to our preference relation. Finally, we demonstrate that Tiered Reward leads to fast learning with multiple tabular and deep reinforcement-learning algorithms.                
+
+Research goal:
+Empirical: hybrid
+Algorithms: NA
+Seeds: 30
+Code: yes
+Env: partial
+Hyperparameters: in appendix
+
+
+### Trust-based Consensus in Multi-Agent Reinforcement Learning Systems
+Link: https://rlj.cs.umass.edu/2024/papers/Paper103.html
+Keywords:
+Abstract: An often neglected issue in multi-agent reinforcement learning (MARL) is the potential presence of unreliable agents in the environment whose deviations from expected behavior can prevent a system from accomplishing its intended tasks. In particular, consensus is a fundamental underpinning problem of cooperative distributed multi-agent systems. Consensus requires different agents, situated in a decentralized communication network, to reach an agreement out of a set of initial proposals that they put forward. Learning-based agents should adopt a protocol that allows them to reach consensus despite having one or more unreliable agents in the system. This paper investigates the problem of unreliable agents in MARL, considering consensus as a case study. Echoing established results in the distributed systems literature, our experiments show that even a moderate fraction of such agents can greatly impact the ability of reaching consensus in a networked environment. We propose Reinforcement Learning-based Trusted Consensus (RLTC), a decentralized trust mechanism, in which agents can independently decide which neighbors to communicate with. We empirically demonstrate that our trust mechanism is able to handle unreliable agents effectively, as evidenced by higher consensus success rates.                
+
+Research goal:
+Empirical: yes
+Algorithms: Other (new)
+Seeds: 30
+Code: yes
+Env: custom
+Hyperparameters: in appendix
+
+
+### Unifying Model-Based and Model-Free Reinforcement Learning with Equivalent Policy Sets
+Link: https://rlj.cs.umass.edu/2024/papers/Paper37.html
+Keywords:
+Abstract: Model-based and model-free reinforcement learning (RL) each possess relative strengths that prevent either algorithm from strictly outperforming the other. Model-based RL often offers greater data efficiency, as it can use models to evaluate many possible behaviors before choosing one to enact. However, because models cannot perfectly represent complex environments, agents that rely too heavily on models may suffer from poor asymptotic performance. Model-free RL, on the other hand, avoids this problem at the expense of data efficiency. In this work, we seek a unified approach to RL that combines the strengths of both approaches. To this end, we introduce the concept of _equivalent policy sets_ (EPS), which quantify the limitations of models for the purposes of decision-making, _i.e._, action selection. Based on this concept, we propose _Unified RL_, a novel RL algorithm that uses models to constrain model-free RL to the set of policies that are not provably suboptimal, according to model-based bounds on policy performance. We demonstrate across a range of benchmarks that Unified RL effectively combines the relative strengths of both model-based and model-free RL, in that it achieves comparable data efficiency to model-based RL, while achieving asymptotic performance similar or superior to that of model-free RL. Additionally, we show that Unified RL often outperforms a number of existing state-of-the-art model-based and model-free RL algorithms, and _can learn effective policies in situations where either model-based or model-free RL alone fail_.                
+
+Research goal:
+Empirical: yes
+Algorithms: Other (new)
+Seeds: 5
+Code: no
+Env: partial
+Hyperparameters: in appendix
+
+
+### Towards General Negotiation Strategies with End-to-End Reinforcement Learning
+Link: https://rlj.cs.umass.edu/2024/papers/Paper268.html
+Keywords:
+Abstract: The research field of automated negotiation has a long history of designing agents that can negotiate with other agents. Such negotiation strategies are traditionally based on manual design and heuristics. More recently, reinforcement learning approaches have also been used to train agents to negotiate. However, negotiation problems are diverse, causing observation and action dimensions to change, which cannot be handled by default linear policy networks. Previous work on this topic has circumvented this issue either by fixing the negotiation problem, causing policies to be non-transferable between negotiation problems or by abstracting the observations and actions into fixed-size representations, causing loss of information and expressiveness due to feature design. We developed an end-to-end reinforcement learning method for diverse negotiation problems by representing observations and actions as a graph and applying graph neural networks in the policy. With empirical evaluations, we show that our method is effective and that we can learn to negotiate with other agents on never-before-seen negotiation problems. Our result opens up new opportunities for reinforcement learning in negotiation agents.                
+
+Research goal:
+Empirical: yes
+Algorithms: Other (new)
+Seeds: 10
+Code: yes
+Env: custom
+Hyperparameters: in appendix
+
+
+### Towards Principled, Practical Policy Gradient for Bandits and Tabular MDPs
+Link: https://rlj.cs.umass.edu/2024/papers/Paper35.html
+Keywords:
+Abstract: We consider (stochastic) softmax policy gradient (PG) methods for bandits and tabular Markov decision processes (MDPs). While the PG objective is non-concave, recent research has used the objective’s smoothness and gradient domination proper- ties to achieve convergence to an optimal policy. However, these theoretical results require setting the algorithm parameters according to unknown problem-dependent quantities (e.g. the optimal action or the true reward vector in a bandit problem). To address this issue, we borrow ideas from the optimization literature to design practical, principled PG methods in both the exact and stochastic settings. In the exact setting, we employ an Armijo line-search to set the step-size for softmax PG and demonstrate a linear convergence rate. In the stochastic setting, we utilize exponentially decreasing step-sizes, and characterize the convergence rate of the resulting algorithm. We show that the proposed algorithm offers similar theoretical guarantees as the state-of-the art results, but does not require the knowledge of oracle-like quantities. For the multi-armed bandit setting, our techniques result in a theoretically-principled PG algorithm that does not require explicit exploration, the knowledge of the reward gap, the reward distributions, or the noise. Finally, we empirically compare the proposed methods to PG approaches that require oracle knowledge, and demonstrate competitive performance.                
+
+Research goal:
+Empirical: hybrid
+Algorithms: Other (new)
+Seeds: 5
+Code: yes
+Env: custom
+Hyperparameters: in appendix
+
+
+### Value Internalization: Learning and Generalizing from Social Reward
+Link: https://rlj.cs.umass.edu/2024/papers/Paper129.html
+Keywords:
+Abstract: Social rewards shape human behavior. During development, a caregiver guides a learner’s behavior towards culturally aligned goals and values. How do these behaviors persist and generalize when the caregiver is no longer present, and the learner must continue autonomously? Here, we propose a model of value internalization where social feedback trains an internal social reward (ISR) model that generates internal rewards when social rewards are unavailable. Through empirical simulations, we show that an ISR model prevents agents from unlearning socialized behaviors and enables generalization in out-of-distribution tasks. We characterize the implications of incomplete internalization, akin to ""reward hacking"" on the ISR. Additionally, we show that our model internalizes prosocial behavior in a multi-agent environment. Our work provides a foundation for understanding how humans acquire and generalize values and offers insights for aligning AI with human values.                
+
+Research goal:
+Empirical: yes
+Algorithms: Other (new)
+Seeds: 10
+Code: yes
+Env: yes
+Hyperparameters: yes
+
+
+### Verification-Guided Shielding for Deep Reinforcement Learning
+Link: https://rlj.cs.umass.edu/2024/papers/Paper224.html
+Keywords:
+Abstract: In recent years, Deep Reinforcement Learning (DRL) has emerged as an effective approach to solving real-world tasks. However, despite their successes, DRL-based policies suffer from poor reliability, which limits their deployment in safety-critical domains. Various methods have been put forth to address this issue by providing formal safety guarantees. Two main approaches include shielding and verification. While shielding ensures the safe behavior of the policy by employing an external online component (i.e., a ``shield'') that overrides potentially dangerous actions, this approach has a significant computational cost as the shield must be invoked at runtime to validate every decision. On the other hand, verification is an offline process that can identify policies that are unsafe, prior to their deployment, yet, without providing alternative actions when such a policy is deemed unsafe. In this work, we present verification-guided shielding --- a novel approach that bridges the DRL reliability gap by integrating these two methods. Our approach combines both formal and probabilistic verification tools to partition the input domain into safe and unsafe regions. In addition, we employ clustering and symbolic representation procedures that compress the unsafe regions into a compact representation. This, in turn, allows to temporarily activate the shield solely in (potentially) unsafe regions, in an efficient manner. Our novel approach allows to significantly reduce runtime overhead while still preserving formal safety guarantees. We extensively evaluate our approach on two benchmarks from the robotic navigation domain, as well as provide an in-depth analysis of its scalability and completeness.                
+
+Research goal:
+Empirical: yes
+Algorithms: Other (new)
+Seeds: no
+Code: yes
+Env: custom
+Hyperparameters: in appendix
+
+
+### Weight Clipping for Deep Continual and Reinforcement Learning
+Link: https://rlj.cs.umass.edu/2024/papers/Paper307.html
+Keywords:
+Abstract: Many failures in deep continual and reinforcement learning are associated with increasing magnitudes of the weights, making them hard to change and potentially causing overfitting. While many methods address these learning failures, they often change the optimizer or the architecture, a complexity that hinders widespread adoption in various systems. In this paper, we focus on learning failures that are associated with increasing weight norm and we propose a simple technique that can be easily added on top of existing learning systems: clipping neural network weights to limit them to a specific range. We study the effectiveness of weight clipping in a series of supervised and reinforcement learning experiments. Our empirical results highlight the benefits of weight clipping for generalization, addressing loss of plasticity and policy collapse, and facilitating learning with a large replay ratio.                
+
+Research goal:
+Empirical: yes
+Algorithms: Other
+Seeds: 5
+Code: yes
+Env: yes
+Hyperparameters: in appendix
+
+
+### When does Self-Prediction help? Understanding Auxiliary Tasks in Reinforcement Learning
+Link: https://rlj.cs.umass.edu/2024/papers/Paper197.html
+Keywords:
+Abstract: We investigate the impact of auxiliary learning tasks such as observation reconstruction and latent self-prediction on the representation learning problem in reinforcement learning. We also study how they interact with distractions and observation functions in the MDP. We provide a theoretical analysis of the learning dynamics of observation reconstruction, latent self-prediction, and TD learning in the presence of distractions and observation functions under linear model assumptions. With this formalization, we are able to explain why latent-self prediction is a helpful auxiliary task, while observation reconstruction can provide more useful features when used in isolation. Our empirical analysis shows that the insights obtained from our learning dynamics framework predicts the behavior of these loss functions beyond the linear model assumption in non-linear neural networks. This reinforces the usefulness of the linear model framework not only for theoretical analysis, but also practical benefit for applied problems.                
+
+Research goal:
+Empirical: yes
+Algorithms: Other
+Seeds: 10
+Code: yes
+Env: yes
+Hyperparameters: in appendix
+
+
+### Zero-shot cross-modal transfer of Reinforcement Learning policies through a Global Workspace
+Link: https://rlj.cs.umass.edu/2024/papers/Paper170.html
+Keywords:
+Abstract: Humans perceive the world through multiple senses, enabling them to create a comprehensive representation of their surroundings and to generalize information across domains. For instance, when a textual description of a scene is given, humans can mentally visualize it. In fields like robotics and Reinforcement Learning (RL), agents can also access information about the environment through multiple sensors; yet redundancy and complementarity between sensors is difficult to exploit as a source of robustness (e.g. against sensor failure) or generalization (e.g. transfer across domains). Prior research demonstrated that a robust and flexible multimodal representation can be efficiently constructed based on the cognitive science notion of a 'Global Workspace': a unique representation trained to combine information across modalities, and to broadcast its signal back to each modality. Here, we explore whether such a brain-inspired multimodal representation could be advantageous for RL agents. First, we train a 'Global Workspace' to exploit information collected about the environment via two input modalities (a visual input, or an attribute vector representing the state of the agent and/or its environment). Then, we train a RL agent policy using this frozen Global Workspace. In two distinct environments and tasks, our results reveal the model's ability to perform zero-shot cross-modal transfer between input modalities, i.e. to apply to image inputs a policy previously trained on attribute vectors (and vice-versa), without additional training or fine-tuning. Variants and ablations of the full Global Workspace (including a CLIP-like multimodal representation trained via contrastive learning) did not display the same generalization abilities.                
+
+Research goal:
+Empirical: yes
+Algorithms: Other
+Seeds: 5
+Code: no
+Env: custom
+Hyperparameters: in appendix
