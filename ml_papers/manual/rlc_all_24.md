@@ -741,3 +741,578 @@ Code: no
 Env: partial
 Hyperparameters: partial
 
+### More Efficient Randomized Exploration for Reinforcement Learning via Approximate Sampling
+Link: https://rlj.cs.umass.edu/2024/papers/Paper148.html
+Keywords: 
+Abstract: Thompson sampling (TS) is one of the most popular exploration techniques in reinforcement learning (RL). However, most TS algorithms with theoretical guarantees are difficult to implement and not generalizable to Deep RL. While approximate sampling-based exploration schemes are promising, most existing algorithms are specific to linear Markov Decision Processes (MDP) with suboptimal regret bounds, or only use the most basic samplers such as Langevin Monte Carlo. In this work, we propose an algorithmic framework that incorporates different approximate sampling methods with the recently proposed Feel-Good Thompson Sampling (FGTS) approach (Zhang, 2022; Dann et al., 2021), which was previously known to be intractable. When applied to linear MDPs, our regret analysis yields the best known dependency of regret on dimensionality, surpassing existing randomized algorithms. Additionally, we provide explicit sampling complexity for each employed sampler. Empirically, we show that in tasks where deep exploration is necessary, our proposed algorithms that combine FGTS and approximate sampling perform significantly better compared to other strong baselines. On several challenging games from the Atari 57 suite, our algorithms achieve performance that is either better than or on par with other strong baselines from the deep RL literature.         
+
+Research goal: 
+Empirical: hybrid
+Algorithms: DQN
+Seeds: 5
+Code: yes
+Env: yes
+Hyperparameters: yes
+
+### Multi-view Disentanglement for Reinforcement Learning with Multiple Cameras
+Link: https://rlj.cs.umass.edu/2024/papers/Paper64.html
+Keywords: 
+Abstract: The performance of image-based Reinforcement Learning (RL) agents can vary depending on the position of the camera used to capture the images. Training on multiple cameras simultaneously, including a first-person egocentric camera, can leverage information from different camera perspectives to improve the performance of RL. However, hardware constraints may limit the availability of multiple cameras in real-world deployment. Additionally, cameras may become damaged in the real-world preventing access to all cameras that were used during training. To overcome these hardware constraints, we propose Multi-View Disentanglement (MVD), which uses multiple cameras to learn a policy that is robust to a reduction in the number of cameras to generalise to any single camera from the training set. Our approach is a self-supervised auxiliary task for RL that learns a disentangled representation from multiple cameras, with a shared representation that is aligned across all cameras to allow generalisation to a single camera, and a private representation that is camera-specific. We show experimentally that an RL agent trained on a single third-person camera is unable to learn an optimal policy in many control tasks; but, our approach, benefiting from multiple cameras during training, is able to solve the task using only the same single third-person camera.         
+
+Research goal: 
+Empirical: yes
+Algorithms: SAC
+Seeds: 5
+Code: yes
+Env: partial
+Hyperparameters: in appendix
+
+### MultiHyRL: Robust Hybrid RL for Obstacle Avoidance against Adversarial Attacks on the Observation Space
+Link: https://rlj.cs.umass.edu/2024/papers/Paper263.html
+Keywords: 
+Abstract: Reinforcement learning (RL) holds promise for the next generation of autonomous vehicles, but it lacks formal robustness guarantees against adversarial attacks in the observation space for safety-critical tasks. In particular, for obstacle avoidance tasks, attacks on the observation space can significantly alter vehicle behavior, as demonstrated in this paper. Traditional approaches to enhance the robustness of RL-based control policies, such as training under adversarial conditions or employing worst-case scenario planning, are limited by their policy's parameterization and cannot address the challenges posed by topological obstructions in the presence of noise. We introduce a new hybrid RL algorithm featuring hysteresis-based switching to guarantee robustness against these attacks for vehicles operating in environments with multiple obstacles. This hysteresis-based RL algorithm for coping with multiple obstacles, referred to as MultiHyRL, addresses the 2D bird's-eye view obstacle avoidance problem, featuring a complex observation space that combines local (images) and global (vectors) observations. Numerical results highlight its robustness to adversarial attacks in various challenging obstacle avoidance settings where Proximal Policy Optimization (PPO), a traditional RL method, fails.         
+
+Research goal: 
+Empirical: yes
+Algorithms: Other (new)
+Seeds: no
+Code: yes
+Env: custom
+Hyperparameters: in appendix
+
+### Multistep Inverse Is Not All You Need
+Link: https://rlj.cs.umass.edu/2024/papers/Paper117.html
+Keywords: 
+Abstract: Reinforcement learning (RL) holds promise for the next generation of autonomous vehicles, but it lacks formal robustness guarantees against adversarial attacks in the observation space for safety-critical tasks. In particular, for obstacle avoidance tasks, attacks on the observation space can significantly alter vehicle behavior, as demonstrated in this paper. Traditional approaches to enhance the robustness of RL-based control policies, such as training under adversarial conditions or employing worst-case scenario planning, are limited by their policy's parameterization and cannot address the challenges posed by topological obstructions in the presence of noise. We introduce a new hybrid RL algorithm featuring hysteresis-based switching to guarantee robustness against these attacks for vehicles operating in environments with multiple obstacles. This hysteresis-based RL algorithm for coping with multiple obstacles, referred to as MultiHyRL, addresses the 2D bird's-eye view obstacle avoidance problem, featuring a complex observation space that combines local (images) and global (vectors) observations. Numerical results highlight its robustness to adversarial attacks in various challenging obstacle avoidance settings where Proximal Policy Optimization (PPO), a traditional RL method, fails.         
+
+Research goal: 
+Empirical: yes
+Algorithms: Other (new)
+Seeds: 10
+Code: yes
+Env: custom
+Hyperparameters: in appendix
+
+### Non-adaptive Online Finetuning for Offline Reinforcement Learning
+Link: https://rlj.cs.umass.edu/2024/papers/Paper28.html
+Keywords: 
+Abstract: Offline reinforcement learning (RL) has emerged as an important framework for applying RL to real-life applications. However, the complete lack of online interactions causes technical difficulties. The online finetuning setting which incorporates a limited form of online interactions, often available in practice, has been developed to address these challenges. Unfortunately, existing theoretical frameworks for online finetuning either assume high online sample complexity or require deploying fully adaptive algorithms (i.e., unlimited policy changes), which restrict their application to real-world settings where online interactions and policy updates are expensive and limited. In this paper, we develop a new theoretical framework for online finetuning. Instead of competing with the optimal policy (which inherits the high sample complexity and adaptivity requirements of online RL), we aim to learn a policy that improves as much as possible over an existing reference policy using a pre-specified number of online samples and a non-adaptive data-collection strategy. Our formulation reveals surprising nuances and suggests novel principles that distinguish finetuning from purely online and offline RL.         
+
+Research goal: 
+Empirical: no
+Algorithms: NA
+Seeds: NA
+Code: NA
+Env: NA
+Hyperparameters: NA
+
+### Non-stationary Bandits and Meta-Learning with a Small Set of Optimal Arms
+Link: https://rlj.cs.umass.edu/2024/papers/Paper358.html
+Keywords: 
+Abstract: Offline reinforcement learning (RL) has emerged as an important framework for applying RL to real-life applications. However, the complete lack of online interactions causes technical difficulties. The online finetuning setting which incorporates a limited form of online interactions, often available in practice, has been developed to address these challenges. Unfortunately, existing theoretical frameworks for online finetuning either assume high online sample complexity or require deploying fully adaptive algorithms (i.e., unlimited policy changes), which restrict their application to real-world settings where online interactions and policy updates are expensive and limited. In this paper, we develop a new theoretical framework for online finetuning. Instead of competing with the optimal policy (which inherits the high sample complexity and adaptivity requirements of online RL), we aim to learn a policy that improves as much as possible over an existing reference policy using a pre-specified number of online samples and a non-adaptive data-collection strategy. Our formulation reveals surprising nuances and suggests novel principles that distinguish finetuning from purely online and offline RL.         
+
+Research goal: 
+Empirical: no
+Algorithms: NA
+Seeds: 5
+Code: yes
+Env: custom
+Hyperparameters: yes
+
+### OCAtari: Object-Centric Atari 2600 Reinforcement Learning Environments
+Link: https://rlj.cs.umass.edu/2024/papers/Paper46.html
+Keywords:
+Abstract: Cognitive science and psychology suggest that object-centric representations of complex scenes are a promising step towards enabling efficient abstract reasoning from low-level perceptual features. Yet, most deep reinforcement learning approaches only rely on pixel-based representations that do not capture the compositional properties of natural scenes. For this, we need environments and datasets that allow us to work and evaluate object-centric approaches. In our work, we extend the Atari Learning Environments, the most-used evaluation framework for deep RL approaches, by introducing OCAtari, that performs resource-efficient extractions of the object-centric states for these games. Our framework allows for object discovery, object representation learning, as well as object-centric RL. We evaluate OCAtari's detection capabilities and resource efficiency.         
+
+Research goal: 
+Empirical: yes
+Algorithms: PPO
+Seeds: 3
+Code: yes
+Env: custom/yes
+Hyperparameters: in appendix
+
+### Offline Diversity Maximization under Imitation Constraints
+Link: https://rlj.cs.umass.edu/2024/papers/Paper169.html
+Keywords:
+Abstract: There has been significant recent progress in the area of unsupervised skill discovery, utilizing various information-theoretic objectives as measures of diversity. Despite these advances, challenges remain: current methods require significant online interaction, fail to leverage vast amounts of available task-agnostic data and typically lack a quantitative measure of skill utility. We address these challenges by proposing a principled offline algorithm for unsupervised skill discovery that, in addition to maximizing diversity, ensures that each learned skill imitates state-only expert demonstrations to a certain degree. Our main analytical contribution is to connect Fenchel duality, reinforcement learning, and unsupervised skill discovery to maximize a mutual information objective subject to KL-divergence state occupancy constraints. Furthermore, we demonstrate the effectiveness of our method on the standard offline benchmark D4RL and on a custom offline dataset collected from a 12-DoF quadruped robot for which the policies trained in simulation transfer well to the real robotic system.         
+
+Research goal: 
+Empirical: yes
+Algorithms: Other (new)
+Seeds: 3
+Code: no
+Env: yes
+Hyperparameters: no
+
+### Offline Reinforcement Learning from Datasets with Structured Non-Stationarity
+Link: https://rlj.cs.umass.edu/2024/papers/Paper287.html
+Keywords:
+Abstract: Current Reinforcement Learning (RL) is often limited by the large amount of data needed to learn a successful policy. Offline RL aims to solve this issue by using transitions collected by a different behavior policy. We address a novel Offline RL problem setting in which, while collecting the dataset, the transition and reward functions gradually change between episodes but stay constant within each episode. We propose a method based on Contrastive Predictive Coding that identifies this non-stationarity in the offline dataset, accounts for it when training a policy, and predicts it during evaluation. We analyze our proposed method and show that it performs well in simple continuous control tasks and challenging, high-dimensional locomotion tasks. We show that our method often achieves the oracle performance and performs better than baselines.         
+
+Research goal: 
+Empirical: yes
+Algorithms: TD3, PPO
+Seeds: 20
+Code: yes
+Env: partial
+Hyperparameters: in appendix
+
+### On the consistency of hyper-parameter selection in value-based deep reinforcement learning
+Link: https://rlj.cs.umass.edu/2024/papers/Paper128.html
+Keywords:
+Abstract: Deep reinforcement learning (deep RL) has achieved tremendous success on various domains through a combination of algorithmic design and careful selection of hyper-parameters. Algorithmic improvements are often the result of iterative enhancements built upon prior approaches, while hyper-parameter choices are typically inherited from previous methods or fine-tuned specifically for the proposed technique. Despite their crucial impact on performance, hyper-parameter choices are frequently overshadowed by algorithmic advancements. This paper conducts an extensive empirical study focusing on the reliability of hyper-parameter selection for value-based deep reinforcement learning agents. Our findings not only help establish which hyper-parameters are most critical to tune, but also help clarify which tunings remain consistent across different training regimes.         
+
+Research goal: 
+Empirical: yes
+Algorithms: Other (new)
+Seeds: 5
+Code: yes
+Env: yes
+Hyperparameters: in appendix
+
+### On Welfare-Centric Fair Reinforcement Learning
+Link: https://rlj.cs.umass.edu/2024/papers/Paper133.html
+Keywords:
+Abstract: We propose a welfare-centric fair reinforcement-learning setting, in which an agent enjoys vector-valued reward from a set of beneficiaries. Given a welfare function W(·), the task is to select a policy π̂ that approximately optimizes the welfare of theirvalue functions from start state s0 , i.e., π̂ ≈ argmaxπ W Vπ1 (s0 ), Vπ2 (s0 ), . . . , Vπg (s0 ) . We find that welfare-optimal policies are stochastic and start-state dependent. Whether individual actions are mistakes depends on the policy, thus mistake bounds, regret analysis, and PAC-MDP learning do not readily generalize to our setting. We develop the adversarial-fair KWIK (Kwik-Af) learning model, wherein at each timestep, an agent either takes an exploration action or outputs an exploitation policy, such that the number of exploration actions is bounded and each exploitation policy is ε-welfare optimal. Finally, we reduce PAC-MDP to Kwik-Af, introduce the Equitable Explicit Explore Exploit (E4) learner, and show that it Kwik-Af learns.         
+
+Research goal: 
+Empirical: no
+Algorithms: Other (new)
+Seeds: no
+Code: no
+Env: custom
+Hyperparameters: no
+
+### Online Planning in POMDPs with State-Requests
+Link: https://rlj.cs.umass.edu/2024/papers/Paper23.html
+Keywords:
+Abstract: In key real-world problems, full state information can sometimes be obtained but only at a high cost, such as by activating more precise yet energy-intensive sensors, or by consulting a human, thereby compelling the agent to operate under partial observability. For this scenario, we propose AEMS-SR (Anytime Error Minimization Search with State Requests), a principled online planning algorithm tailored for POMDPs with state requests. By representing the search space as a graph instead of a tree, AEMS-SR avoids the exponential growth of the search space originating from state requests. Theoretical analysis demonstrates AEMS-SR's -optimality, ensuring solution quality, while empirical evaluations illustrate its effectiveness compared with AEMS and POMCP, two SOTA online planning algorithms. AEMS-SR enables efficient planning in domains characterized by partial observability and costly state requests offering practical benefits across various applications         
+
+Research goal: 
+Empirical: no
+Algorithms: Other (new)
+Seeds: no
+Code: no
+Env: custom
+Hyperparameters: no
+
+### Optimizing Rewards while meeting ω-regular Constraints
+Link: https://rlj.cs.umass.edu/2024/papers/Paper359.html
+Keywords:
+Abstract: This paper addresses the problem of synthesizing policies for Markov Decision Processes (MDPs) with hard -regular constraints, which include and are more general than safety, reachability, liveness, and fairness. The objective is to derive a policy that not only makes the MDP adhere to the given -regular constraint with certainty but also maximizes the expected reward. We first show that there are no optimal policies for the general constrained MDP (CMDP) problem with -regular constraints, which contrasts with simpler problem of CMDPs with safety requirements. Next we show that, despite its complexity, the optimal policy can be approximated within any desired level of accuracy in polynomial time. This approximation ensures both the fulfillment of the -regular constraint with probability and the attainment of a -optimal reward for any given . The proof identifies specific classes of policies capable of achieving these objectives and may be of independent interest. Furthermore, we introduce an approach to tackle the CMDP problem by transforming it into a classical MDP reward optimization problem, thereby enabling the application of conventional reinforcement learning. We show that proximal policy optimization is an effective approach to identifying near-optimal policies that satisfy -regular constraints. This result is demonstrated across multiple environments and constraint types.          
+
+Research goal: 
+Empirical: no
+Algorithms: PPO, SAC
+Seeds: no
+Code: no
+Env: custom
+Hyperparameters: in appendix
+
+### PASTA: Pretrained Action-State Transformer Agents
+Link: https://rlj.cs.umass.edu/2024/papers/Paper191.html
+Keywords:
+Abstract: Self-supervised learning has brought about a revolutionary paradigm shift in various computing domains, including NLP, vision, and biology. Recent approaches involve pretraining transformer models on vast amounts of unlabeled data, serving as a starting point for efficiently solving downstream tasks. In reinforcement learning, researchers have recently adapted these approaches, developing models pretrained on expert trajectories. However, existing methods mostly rely on intricate pretraining objectives tailored to specific downstream applications. This paper conducts a comprehensive investigation of models, referred to as pre-trained action-state transformer agents (PASTA). Our study covers a unified framework and covers an extensive set of general downstream tasks including behavioral cloning, offline Reinforcement Learning (RL), sensor failure robustness, and dynamics change adaptation. We systematically compare various design choices and offer valuable insights that will aid practitioners in developing robust models. Key findings highlight improved performance of component-level tokenization, the use of fundamental pretraining objectives such as next token prediction or masked language modeling, and simultaneous training of models across multiple domains. In this study, the developed models contain fewer than 7M parameters allowing a broad community to use these models and reproduce our experiments. We hope that this study will encourage further research into the use of transformers with first principle design choices to represent RL trajectories and contribute to robust policy learning.          
+
+Research goal: 
+Empirical: yes
+Algorithms: Other (new), SAC
+Seeds: 5
+Code: no
+Env: partial
+Hyperparameters: in appendix
+
+### Physics-Informed Model and Hybrid Planning for Efficient Dyna-Style Reinforcement Learning
+Link: https://rlj.cs.umass.edu/2024/papers/Paper99.html
+Keywords:
+Abstract: Applying reinforcement learning (RL) to real-world applications requires addressing a trade-off between asymptotic performance, sample efficiency, and inference time. In this work, we demonstrate how to address this triple challenge by leveraging partial physical knowledge about the system dynamics. Our approach involves learning a physics-informed model to boost sample efficiency and generating imaginary trajectories from this model to learn a model-free policy and Q-function. Furthermore, we propose a hybrid planning strategy, combining the learned policy and Q-function with the learned model to enhance time efficiency in planning. Through practical demonstrations, we illustrate that our method improves the compromise between sample efficiency, time efficiency, and performance over state-of-the-art methods.          
+
+Research goal: 
+Empirical: yes
+Algorithms: Other (new), TD3, TD-MPC
+Seeds: 10
+Code: yes
+Env: no
+Hyperparameters: in appendix
+
+### PID Accelerated Temporal Difference Algorithms
+Link: https://rlj.cs.umass.edu/2024/papers/Paper270.html
+Keywords:
+Abstract: Long-horizon tasks, which have a large discount factor, pose a challenge for most conventional reinforcement learning (RL) algorithms. Algorithms such as Value Iteration and Temporal Difference (TD) learning have a slow convergence rate and become inefficient in these tasks. When the transition distributions are given, PID~VI was recently introduced to accelerate the convergence of Value Iteration using ideas from control theory. Inspired by this, we introduce PID TD Learning and PID Q-Learning algorithms for the RL setting, in which only samples from the environment are available. We give a theoretical analysis of the convergence of PID TD Learning and its acceleration compared to the conventional TD Learning. We also introduce a method for adapting PID gains in the presence of noise and empirically verify its effectiveness.          
+
+Research goal: 
+Empirical: no
+Algorithms: Other (new)
+Seeds: 80
+Code: no
+Env: no
+Hyperparameters: in appendix
+
+### Planning to Go Out-of-Distribution in Offline-to-Online Reinforcement Learning
+Link: https://rlj.cs.umass.edu/2024/papers/Paper67.html
+Keywords:
+Abstract: Offline pretraining with a static dataset followed by online fine-tuning (offline-to-online, or OtO) is a paradigm that is well matched to a real-world RL deployment process. In this scenario, we aim to find the best-performing policy within a limited budget of online interactions. Previous work in the OtO setting has focused on correcting for bias introduced by the policy-constraint mechanisms of offline RL algorithms. Such constraints keep the learned policy close to the behavior policy that collected the dataset, but we show this can unnecessarily limit policy performance if the behavior policy is far from optimal. Instead, we forgo policy constraints and frame OtO RL as an exploration problem that aims to maximize the benefit of the online data-collection. We first study the major online RL exploration methods based on intrinsic rewards and UCB in the OtO setting, showing that intrinsic rewards add training instability through reward-function modification, and UCB methods are myopic and it is unclear which learned-component's ensemble to use for action selection. We then introduce an algorithm for \textbf{p}lanning to go out of distribution (PTGOOD) that avoids these issues. PTGOOD uses a non-myopic planning procedure that targets exploration in relatively high-reward regions of the state-action space unlikely to be visited by the behavior policy. By leveraging concepts from the Conditional Entropy Bottleneck, PTGOOD encourages data collected online to provide new information relevant to improving the final deployment policy without altering rewards. We show empirically in different control tasks that PTGOOD significantly improves agent returns during online fine-tuning and finds the optimal policy in as few as 10k online steps in the Walker control task and in as few as 50k in complex control tasks such as Humanoid. We find that PTGOOD avoids the suboptimal policy convergence that many of our baselines exhibit in several environments.          
+
+Research goal: 
+Empirical: yes
+Algorithms: Other (new)
+Seeds: 5
+Code: no
+Env: yes
+Hyperparameters: in appendix
+
+### Policy Architectures for Compositional Generalization in Control
+Link: https://rlj.cs.umass.edu/2024/papers/Paper327.html
+Keywords:
+Abstract: Many tasks in control, robotics, and planning can be specified using desired goal configurations for various entities in the environment. Learning goal-conditioned policies is a natural paradigm to solve such tasks. However, current approaches struggle to learn and generalize as task complexity increases, such as variations in number of environment entities or compositions of goals. In this work, we introduce a framework for modeling entity-based compositional structure in tasks, and create suitable policy designs that can leverage this structure. Our policies, which utilize architectures like Deep Sets and Self Attention, are flexible and can be trained end-to-end without requiring any action primitives. When trained using standard reinforcement and imitation learning methods on a suite of simulated robot manipulation tasks, we find that these architectures achieve significantly higher success rates with less data. We also find these architectures enable broader and compositional generalization, producing policies that extrapolate to different numbers of entities than seen in training, and stitch together (i.e. compose) learned skills in novel ways.          
+
+Research goal: 
+Empirical: yes
+Algorithms: DDPG
+Seeds: 5
+Code: yes
+Env: yes
+Hyperparameters: in appendix
+
+### Policy Gradient Algorithms with Monte Carlo Tree Learning for Non-Markov Decision Processes
+Link: https://rlj.cs.umass.edu/2024/papers/Paper168.html
+Keywords:
+Abstract: Policy gradient (PG) is a reinforcement learning (RL) approach that optimizes a parameterized policy model for an expected return using gradient ascent. While PG can work well even in non-Markovian environments, it may encounter plateaus or peakiness issues. As another successful RL approach, algorithms based on Monte Carlo Tree Search (MCTS), which include AlphaZero, have obtained groundbreaking results, especially in the game-playing domain. They are also effective when applied to non-Markov decision processes. However, the standard MCTS is a method for decision-time planning, which differs from the online RL setting. In this work, we first introduce Monte Carlo Tree Learning (MCTL), an adaptation of MCTS for online RL setups. We then explore a combined policy approach of PG and MCTL to leverage their strengths. We derive conditions for asymptotic convergence with the results of a two-timescale stochastic approximation and propose an algorithm that satisfies these conditions and converges to a reasonable solution. Our numerical experiments validate the effectiveness of the proposed methods.          
+
+Research goal: theory
+Empirical: no
+Algorithms: Other
+Seeds: no
+Code: no
+Env: custom
+Hyperparameters: in appendix
+
+### Policy Gradient Algorithms with Monte Carlo Tree Learning for Non-Markov Decision Processes
+Link: https://rlj.cs.umass.edu/2024/papers/Paper168.html
+Keywords:
+Abstract: Policy gradient (PG) is a reinforcement learning (RL) approach that optimizes a parameterized policy model for an expected return using gradient ascent. While PG can work well even in non-Markovian environments, it may encounter plateaus or peakiness issues. As another successful RL approach, algorithms based on Monte Carlo Tree Search (MCTS), which include AlphaZero, have obtained groundbreaking results, especially in the game-playing domain. They are also effective when applied to non-Markov decision processes. However, the standard MCTS is a method for decision-time planning, which differs from the online RL setting. In this work, we first introduce Monte Carlo Tree Learning (MCTL), an adaptation of MCTS for online RL setups. We then explore a combined policy approach of PG and MCTL to leverage their strengths. We derive conditions for asymptotic convergence with the results of a two-timescale stochastic approximation and propose an algorithm that satisfies these conditions and converges to a reasonable solution. Our numerical experiments validate the effectiveness of the proposed methods.          
+
+Research goal: theory
+Empirical: no
+Algorithms: Other
+Seeds: 10
+Code: no
+Env: custom
+Hyperparameters: in appendix
+
+### Policy Gradient with Active Importance Sampling
+Link: https://rlj.cs.umass.edu/2024/papers/Paper90.html
+Keywords:
+Abstract: mportance sampling (IS) represents a fundamental technique for a large surge of off-policy reinforcement learning approaches. Policy gradient (PG) methods, in particular, significantly benefit from IS, enabling the effective reuse of previously collected samples, thus increasing sample efficiency. However, classically, IS is employed in RL as a passive tool for re-weighting historical samples. However, the statistical community employs IS as an active tool combined with the use of behavioral distributions that allow the reduction of the estimate variance even below the sample mean one. In this paper, we focus on this second setting by addressing the behavioral policy optimization (BPO) problem. We look for the best behavioral policy from which to collect samples to reduce the policy gradient variance as much as possible. We provide an iterative algorithm that alternates between the cross-entropy estimation of the minimum-variance behavioral policy and the actual policy optimization, leveraging on defensive IS. We theoretically analyze such an algorithm, showing that it enjoys a convergence rate of order to a stationary point, but depending on a more convenient variance term w.r.t. standard PG methods. We then provide a practical version that is numerically validated, showing the advantages in the policy gradient estimation variance and on the learning speed.           
+
+Research goal: theory
+Empirical: no
+Algorithms: Other
+Seeds: no
+Code: no
+Env: no
+Hyperparameters: in appendix
+
+### Policy-Guided Diffusion
+Link: https://rlj.cs.umass.edu/2024/papers/Paper233.html
+Keywords:
+Abstract: mportance sampling (IS) represents a fundamental technique for a large surge of off-policy reinforcement learning approaches. Policy gradient (PG) methods, in particular, significantly benefit from IS, enabling the effective reuse of previously collected samples, thus increasing sample efficiency. However, classically, IS is employed in RL as a passive tool for re-weighting historical samples. However, the statistical community employs IS as an active tool combined with the use of behavioral distributions that allow the reduction of the estimate variance even below the sample mean one. In this paper, we focus on this second setting by addressing the behavioral policy optimization (BPO) problem. We look for the best behavioral policy from which to collect samples to reduce the policy gradient variance as much as possible. We provide an iterative algorithm that alternates between the cross-entropy estimation of the minimum-variance behavioral policy and the actual policy optimization, leveraging on defensive IS. We theoretically analyze such an algorithm, showing that it enjoys a convergence rate of order to a stationary point, but depending on a more convenient variance term w.r.t. standard PG methods. We then provide a practical version that is numerically validated, showing the advantages in the policy gradient estimation variance and on the learning speed.           
+
+Research goal:
+Empirical: yes
+Algorithms: Other (new)
+Seeds: 4
+Code: yes
+Env: partial/custom
+Hyperparameters: in appendix
+
+### Reinforcement Learning from Delayed Observations via World Models
+Link: https://rlj.cs.umass.edu/2024/papers/Paper280.html
+Keywords:
+Abstract: In standard reinforcement learning settings, agents typically assume immediate feedback about the effects of their actions after taking them. However, in practice, this assumption may not hold true due to physical constraints and can significantly impact the performance of learning algorithms. In this paper, we address observation delays in partially observable environments. We propose leveraging world models, which have shown success in integrating past observations and learning dynamics, to handle observation delays. By reducing delayed POMDPs to delayed MDPs with world models, our methods can effectively handle partial observability, where existing approaches achieve sub-optimal performance or degrade quickly as observability decreases. Experiments suggest that one of our methods can outperform a naive model-based approach by up to 250%. Moreover, we evaluate our methods on visual delayed environments, for the first time showcasing delay-aware reinforcement learning continuous control with visual observations.           
+
+Research goal:
+Empirical: yes
+Algorithms: Other (new)
+Seeds: 5
+Code: yes
+Env: yes
+Hyperparameters: yes
+
+### Reinforcement Learning from Human Feedback without Reward Inference
+Link: https://rlj.cs.umass.edu/2024/papers/Paper150.html
+Keywords:
+Abstract: In this paper, we study reinforcement learning from human feedback (RLHF) under an episodic Markov decision process with a general trajectory-wise reward model. We developed a model-free RLHF best policy identification algorithm, called , without explicit reward model inference, which is a critical intermediate step in the contemporary RLHF paradigms for training large language models (LLM). The algorithm identifies the optimal policy directly from human preference information in a backward manner, employing a dueling bandit sub-routine that constantly duels actions to identify the superior one. adopts a reward-free exploration and best-arm-identification-like adaptive stopping criteria to equalize the visitation among all states in the same decision step while moving to the previous step as soon as the optimal action is identifiable, leading to a provable, instance-dependent sample complexity which resembles the result in classic RL, where is the instance-dependent constant and is the batch size. Moreover, can be transformed into an explore-then-commit algorithm with logarithmic regret and generalized to discounted MDPs using a frame-based approach. Our results show: (i) sample-complexity-wise, RLHF is not significantly harder than classic RL and (ii) end-to-end RLHF may deliver improved performance by avoiding pitfalls in reward inferring such as overfit and distribution shift.            
+
+Research goal:
+Empirical: no
+Algorithms: Other (new)
+Seeds: 5
+Code: no
+Env: custom
+Hyperparameters: no
+
+
+### Representation Alignment from Human Feedback for Cross-Embodiment Reward Learning
+Link: https://rlj.cs.umass.edu/2024/papers/Paper228.html
+Keywords:
+Abstract: In this paper, we study reinforcement learning from human feedback (RLHF) under an episodic Markov decision process with a general trajectory-wise reward model. We developed a model-free RLHF best policy identification algorithm, called , without explicit reward model inference, which is a critical intermediate step in the contemporary RLHF paradigms for training large language models (LLM). The algorithm identifies the optimal policy directly from human preference information in a backward manner, employing a dueling bandit sub-routine that constantly duels actions to identify the superior one. adopts a reward-free exploration and best-arm-identification-like adaptive stopping criteria to equalize the visitation among all states in the same decision step while moving to the previous step as soon as the optimal action is identifiable, leading to a provable, instance-dependent sample complexity which resembles the result in classic RL, where is the instance-dependent constant and is the batch size. Moreover, can be transformed into an explore-then-commit algorithm with logarithmic regret and generalized to discounted MDPs using a frame-based approach. Our results show: (i) sample-complexity-wise, RLHF is not significantly harder than classic RL and (ii) end-to-end RLHF may deliver improved performance by avoiding pitfalls in reward inferring such as overfit and distribution shift.            
+
+Research goal:
+Empirical: yes
+Algorithms: Other (new)
+Seeds: 5
+Code: yes
+Env: yes
+Hyperparameters: in appendix
+
+
+### Resource Usage Evaluation of Discrete Model-Free Deep Reinforcement Learning Algorithms
+Link: https://rlj.cs.umass.edu/2024/papers/Paper304.html
+Keywords:
+Abstract: Deep Reinforcement Learning (DRL) has become popular due to promising results in chatbot, healthcare, and autonomous driving applications. However, few DRL algorithms are rigorously evaluated in terms of their space or time efficiency, making them difficult to develop and deploy in practice. In current literature, existing performance comparisons mostly focus on inference accuracy, without considering real-world limitations such as maximum runtime and memory. Furthermore, many works do not make their code publicly accessible for others to use. This paper addresses this gap by presenting the most comprehensive resource usage evaluation and performance comparison of DRL algorithms known to date. This work focuses on publicly-accessible discrete model-free DRL algorithms because of their practicality in real-world problems where efficient implementations are necessary. Although there are other state-of-the art algorithms, few were presently deployment-ready for training on a large number of environments. In total, sixteen DRL algorithms were trained in 23 different environments (468 seeds total), which collectively required 256 GB and 830 CPU days to run all experiments and 1.8 GB to store all models. Overall, our results validate several known challenges in DRL, including exploration and memory inefficiencies, the classic exploration-exploitation trade-off, and large resource utilizations. To address these challenges, this paper suggests numerous opportunities for future work to help improve the capabilities of modern algorithms. The findings of this paper are intended to aid researchers and practitioners in improving and employing DRL algorithms in time-sensitive and resource-constrained applications such as economics, cybersecurity, robotics, and the Internet of Things.             
+
+Research goal:
+Empirical: yes
+Algorithms: Other (new)
+Seeds: 20
+Code: yes
+Env: yes
+Hyperparameters: yes
+
+
+### Revisiting Sparse Rewards for Goal-Reaching Reinforcement Learning
+Link: https://rlj.cs.umass.edu/2024/papers/Paper231.html
+Keywords:
+Abstract: Deep Reinforcement Learning (DRL) has become popular due to promising results in chatbot, healthcare, and autonomous driving applications. However, few DRL algorithms are rigorously evaluated in terms of their space or time efficiency, making them difficult to develop and deploy in practice. In current literature, existing performance comparisons mostly focus on inference accuracy, without considering real-world limitations such as maximum runtime and memory. Furthermore, many works do not make their code publicly accessible for others to use. This paper addresses this gap by presenting the most comprehensive resource usage evaluation and performance comparison of DRL algorithms known to date. This work focuses on publicly-accessible discrete model-free DRL algorithms because of their practicality in real-world problems where efficient implementations are necessary. Although there are other state-of-the art algorithms, few were presently deployment-ready for training on a large number of environments. In total, sixteen DRL algorithms were trained in 23 different environments (468 seeds total), which collectively required 256 GB and 830 CPU days to run all experiments and 1.8 GB to store all models. Overall, our results validate several known challenges in DRL, including exploration and memory inefficiencies, the classic exploration-exploitation trade-off, and large resource utilizations. To address these challenges, this paper suggests numerous opportunities for future work to help improve the capabilities of modern algorithms. The findings of this paper are intended to aid researchers and practitioners in improving and employing DRL algorithms in time-sensitive and resource-constrained applications such as economics, cybersecurity, robotics, and the Internet of Things.             
+
+Research goal:
+Empirical: yes
+Algorithms: SAC
+Seeds: 30
+Code: yes
+Env: custom/partial
+Hyperparameters: in appendix
+
+
+### Reward Centering
+Link: https://rlj.cs.umass.edu/2024/papers/Paper261.html
+Keywords:
+Abstract: We show that discounted methods for solving continuing reinforcement learning problems can perform significantly better if they center their rewards by subtracting out the rewards' empirical average. The improvement is substantial at commonly used discount factors and increases further as the discount factor approaches one. In addition, we show that if a _problem's_ rewards are shifted by a constant, then standard methods perform much worse, whereas methods with reward centering are unaffected. Estimating the average reward is straightforward in the on-policy setting; we propose a slightly more sophisticated method for the off-policy setting. Reward centering is a general idea, so we expect almost every reinforcement-learning algorithm to benefit by the addition of reward centering.             
+
+Research goal:
+Empirical: yes
+Algorithms: DQN, PPO, Other
+Seeds: 10
+Code: yes
+Env: custom/no
+Hyperparameters: in appendix
+
+### RL for Consistency Models: Faster Reward Guided Text-to-Image Generation
+Link: https://rlj.cs.umass.edu/2024/papers/Paper210.html
+Keywords:
+Abstract: Reinforcement learning (RL) has improved guided image generation with diffusion models by directly optimizing rewards that capture image quality, aesthetics, and instruction following capabilities. However, the resulting generative policies inherit the same iterative sampling process of diffusion models that causes slow generation. To overcome this limitation, consistency models proposed learning a new class of generative models that directly map noise to data, resulting in a model that can generate an image in as few as one sampling iteration. In this work, to optimize text-to-image generative models for task specific rewards and enable fast training and inference, we propose a framework for fine-tuning consistency models via RL. Our framework, called Reinforcement Learning for Consistency Model (RLCM), frames the iterative inference process of a consistency model as an RL procedure. Comparing to RL finetuned diffusion models, RLCM trains significantly faster, improves the quality of the generation measured under the reward objectives, and speeds up the inference procedure by generating high quality images with as few as two inference steps. Experimentally, we show that RLCM can adapt text-to-image consistency models to objectives that are challenging to express with prompting, such as image compressibility, and those derived from human feedback, such as aesthetic quality. Our code is available at https://rlcm.owenoertell.com             
+
+Research goal:
+Empirical: yes
+Algorithms: Other
+Seeds: 3
+Code: yes
+Env: custom
+Hyperparameters: in appendix
+
+### Robotic Manipulation Datasets for Offline Compositional Reinforcement Learning
+Link: https://rlj.cs.umass.edu/2024/papers/Paper124.html
+Keywords:
+Abstract: Offline reinforcement learning (RL) is a promising direction that allows RL agents to pre-train on large datasets, avoiding the recurrence of expensive data collection. To advance the field, it is crucial to generate large-scale datasets. Compositional RL is particularly appealing for generating such large datasets, since 1) it permits creating many tasks from few components, 2) the task structure may enable trained agents to solve new tasks by combining relevant learned components, and 3) the compositional dimensions provide a notion of task relatedness. This paper provides four offline RL datasets for simulated robotic manipulation created using the tasks from CompoSuite (Mendez et al., 2022). Each dataset is collected from an agent with a different degree of performance, and consists of million transitions. We provide training and evaluation settings for assessing an agent's ability to learn compositional task policies. Our benchmarking experiments show that current offline RL methods can learn the training tasks to some extent and that compositional methods outperform non-compositional methods. Yet, current methods are unable to extract the compositional structure to generalize to unseen tasks highlighting a need for future research in offline compositional RL.             
+
+Research goal:
+Empirical: yes
+Algorithms: Other
+Seeds: 3
+Code: yes
+Env: partial
+Hyperparameters: in appendix
+
+
+### ROER: Regularized Optimal Experience Replay
+Link: https://rlj.cs.umass.edu/2024/papers/Paper198.html
+Keywords:
+Abstract: Experience replay serves as a key component in the success of online reinforcement learning (RL). Prioritized experience replay (PER) reweights experiences by the temporal difference (TD) error empirically enhancing the performance. However, few works have explored the motivation of using TD error. In this work, we provide an alternative perspective on TD-error-based reweighting. We show the connections between the experience prioritization and occupancy optimization. By using a regularized RL objective with divergence regularizer and employing its dual form, we show that an optimal solution to the objective is obtained by shifting the distribution of off-policy data in the replay buffer towards the on-policy optimal distribution using TD-error-based occupancy ratios. Our derivation results in a new pipeline of TD error prioritization. We specifically explore the KL divergence as the regularizer and obtain a new form of prioritization scheme, the regularized optimal experience replay (ROER). We evaluate the proposed prioritization scheme with the Soft Actor-Critic (SAC) algorithm in continuous control MuJoCo and DM Control benchmark tasks where our proposed scheme outperforms baselines in 6 out of 11 tasks while the results of the rest match with or do not deviate far from the baselines. Further, using pretraining, ROER achieves noticeable improvement on difficult Antmaze environment where baselines fail, showing applicability to offline-to-online fine-tuning.             
+
+Research goal:
+Empirical: yes
+Algorithms: Other (new)
+Seeds: 20
+Code: yes
+Env: yes
+Hyperparameters: in appendix
+
+### ROIL: Robust Offline Imitation Learning without Trajectories
+Link: https://rlj.cs.umass.edu/2024/papers/Paper83.html
+Keywords:
+Abstract: We study the problem of imitation learning via inverse reinforcement learning where the agent attempts to learn an expert's policy from a dataset of collected state, action tuples. We derive a new Robust model-based Offline Imitation Learning method (ROIL) that mitigates covariate shift by avoiding estimating the expert's occupancy frequency. Frequently in offline settings, there is insufficient data to reliably estimate the expert's occupancy frequency and this leads to models that do not generalize well. Our proposed approach, ROIL, is a method that is guaranteed to recover the expert's occupancy frequency and is efficiently solvable as an LP. We demonstrate ROIL's ability to achieve minimal regret in large environments under covariate shift, such as when the state visitation frequency of the demonstrations does not come from the expert.             
+
+Research goal:
+Empirical: no
+Algorithms: Other
+Seeds: 10
+Code: no
+Env: no
+Hyperparameters: no
+
+
+### Sample Complexity of Offline Distributionally Robust Linear Markov Decision Processes
+Link: https://rlj.cs.umass.edu/2024/papers/Paper189.html
+Keywords:
+Abstract: In offline reinforcement learning (RL), the absence of active exploration calls for attention on the model robustness to tackle the sim-to-real gap, where the discrepancy between the simulated and deployed environments can significantly undermine the performance of the learned policy. To endow the learned policy with robustness in a sample-efficient manner in the presence of high-dimensional state-action space, this paper considers the sample complexity of distributionally robust linear Markov decision processes (MDPs) with an uncertainty set characterized by the total variation distance using offline data. We develop a pessimistic model-based algorithm and establish its sample complexity bound under minimal data coverage assumptions, which outperforms prior art by at least , where is the feature dimension. We further improve the performance guarantee of the proposed algorithm by incorporating a carefully-designed variance estimator             
+
+Research goal:
+Empirical: no
+Algorithms: NA
+Seeds: NA
+Code: NA
+Env: NA
+Hyperparameters: NA
+
+
+### Semi-Supervised One-Shot Imitation Learning
+Link: https://rlj.cs.umass.edu/2024/papers/Paper328.html
+Keywords:
+Abstract: One-shot Imitation Learning (OSIL) aims to imbue AI agents with the ability to learn a new task from a single demonstration. To supervise the learning, OSIL requires a prohibitively large number of paired expert demonstrations: trajectories corresponding to different variations of the same semantic task. To overcome this limitation, we introduce the semi-supervised OSIL problem setting, where the learning agent is presented with a large dataset of tasks with only one demonstration each (unpaired dataset), along with a small dataset of tasks with multiple demonstrations (paired dataset). This presents a more realistic and practical embodiment of few-shot learning and requires the agent to effectively leverage weak supervision. Subsequently, we develop an algorithm applicable to this semi-supervised OSIL setting. Our approach first learns an embedding space where different tasks cluster uniquely. We utilize this embedding space and the clustering it supports to self-generate pairings between trajectories in the large unpaired dataset. Through empirical results, we demonstrate that OSIL models trained on such self-generated pairings (labels) are competitive with OSIL models trained with ground-truth labels, presenting a major advancement in the label-efficiency of OSIL.             
+
+Research goal:
+Empirical: yes
+Algorithms: Other (new)
+Seeds: 3
+Code: no (commited to release after acceptance but did not do so for final version)
+Env: custom
+Hyperparameters: in appendix
+
+
+### Sequential Decision-Making for Inline Text Autocomplete
+Link: https://rlj.cs.umass.edu/2024/papers/Paper119.html
+Keywords:
+Abstract: Autocomplete suggestions are fundamental to modern text entry systems, with applications in domains such as messaging and email composition. Typically, autocomplete suggestions are generated from a language model with a confidence threshold. However, this threshold does not directly take into account the cognitive burden imposed on the user by surfacing suggestions, such as the effort to switch contexts from typing to reading the suggestion, and the time to decide whether to accept the suggestion. In this paper, we study the problem of improving inline autocomplete suggestions in text entry systems via a sequential decision-making formulation, and use reinforcement learning (RL) to learn suggestion policies through repeated interactions with a target user over time. This formulation allows us to factor cognitive burden into the objective of training an autocomplete model, through a reward function based on text entry speed. We acquired theoretical and experimental evidence that, under certain objectives, the sequential decision-making formulation of the autocomplete problem provides a better suggestion policy than myopic single-step reasoning. However, aligning these objectives with real users requires further exploration. In particular, we hypothesize that the objectives under which sequential decision-making can improve autocomplete systems are not tailored solely to text entry speed, but more broadly to metrics such as user satisfaction and convenience.              
+
+Research goal:
+Empirical: yes
+Algorithms: Other (new)
+Seeds: 5
+Code: no
+Env: custom
+Hyperparameters: in appendix
+
+
+### Shield Decomposition for Safe Reinforcement Learning in General Partially Observable Multi-Agent Environments
+Link: https://rlj.cs.umass.edu/2024/papers/Paper254.html
+Keywords:
+Abstract: As Reinforcement Learning is increasingly used in safety-critical systems, it is important to restrict RL agents to only take safe actions. Shielding is a promising approach to this task; however, in multi-agent domains, shielding has previously been restricted to environments where all agents observe the same information. Most real-world tasks do not satisfy this strong assumption. We discuss the theoretical foundations of multi-agent shielding in environments with general partial observability and develop a novel shielding method which is effective in such domains. Through a series of experiments, we show that agents that use our shielding method are able to safely and successfully solve a variety of RL tasks, including tasks in which prior methods cannot be applied.               
+
+Research goal:
+Empirical: yes
+Algorithms: Other (new)
+Seeds: 50
+Code: no
+Env: custom
+Hyperparameters: in appendix
+
+
+### SplAgger: Split Aggregation for Meta-Reinforcement Learning
+Link: https://rlj.cs.umass.edu/2024/papers/Paper48.html
+Keywords:
+Abstract: A core ambition of reinforcement learning (RL) is the creation of agents capable of rapid learning in novel tasks. Meta-RL aims to achieve this by directly learning such agents. Black box methods do so by training off-the-shelf sequence models end-to-end. By contrast, task inference methods explicitly infer a posterior distribution over the unknown task, typically using distinct objectives and sequence models designed to enable task inference. Recent work has shown that task inference methods are not necessary for strong performance. However, it remains unclear whether task inference sequence models are beneficial even when task inference objectives are not. In this paper, we present evidence that task inference sequence models are indeed still beneficial. In particular, we investigate sequence models with permutation invariant aggregation, which exploit the fact that, due to the Markov property, the task posterior does not depend on the order of data. We empirically confirm the advantage of permutation invariant sequence models without the use of task inference objectives. However, we also find, surprisingly, that there are multiple conditions under which permutation variance remains useful. Therefore, we propose SplAgger, which uses both permutation variant and invariant components to achieve the best of both worlds, outperforming all baselines evaluated on continuous control and memory environments. Code is provided at https://github.com/jacooba/hyper.               
+
+Research goal:
+Empirical: yes
+Algorithms: Other (new)
+Seeds: 3
+Code: yes
+Env: yes
+Hyperparameters: in appendix
+
+
+### Stabilizing Extreme Q-learning by Maclaurin Expansion
+Link: https://rlj.cs.umass.edu/2024/papers/Paper171.html
+Keywords:
+Abstract: In offline reinforcement learning, in-sample learning methods have been widely used to prevent performance degradation caused by evaluating out-of-distribution actions from the dataset. Extreme Q-learning (XQL) employs a loss function based on the assumption that Bellman error follows a Gumbel distribution, enabling it to model the soft optimal value function in an in-sample manner. It has demonstrated strong performance in both offline and online reinforcement learning settings. However, issues remain, such as the instability caused by the exponential term in the loss function and the risk of the error distribution deviating from the Gumbel distribution. Therefore, we propose Maclaurin Expanded Extreme Q-learning to enhance stability. In this method, applying Maclaurin expansion to the loss function in XQL enhances stability against large errors. This approach involves adjusting the modeled value function between the value function under the behavior policy and the soft optimal value function, thus achieving a trade-off between stability and optimality depending on the order of expansion. It also enables adjustment of the error distribution assumption from a normal distribution to a Gumbel distribution. Our method significantly stabilizes learning in online RL tasks from DM Control, where XQL was previously unstable. Additionally, it improves performance in several offline RL tasks from D4RL.               
+
+Research goal:
+Empirical: yes
+Algorithms: Other (new)
+Seeds: 5
+Code: no
+Env: yes
+Hyperparameters: in appendix
+
+
+### States as goal-directed concepts: an epistemic approach to state-representation learning
+Link: https://rlj.cs.umass.edu/2024/papers/Paper275.html
+Keywords:
+Abstract: Goals fundamentally shape how we experience the world. For example, when we are hungry, we tend to view objects in our environment according to whether or not they are edible (or tasty). Alternatively, when we are cold, we view the very same objects according to their ability to produce heat. Computational theories of learning in cognitive systems, such as reinforcement learning, use state-representations to describe how agents determine behaviorally-relevant features of their environment. However, these approaches typically assume ground-truth state representations that are known to the agent, and reward functions that need to be learned. Here we suggest an alternative approach in which state-representations are not assumed veridical, or even pre-defined, but rather emerge from the agent's goals through interaction with its environment. We illustrate this novel perspective using a rodent odor-guided choice task and discuss its potential role in developing a unified theory of experience based learning in natural and artificial agents.               
+
+Research goal:
+Empirical: no
+Algorithms: NA
+Seeds: NA
+Code: NA
+Env: NA
+Hyperparameters: NA
+
+
+### Surprise-Adaptive Intrinsic Motivation for Unsupervised Reinforcement Learning
+Link: https://rlj.cs.umass.edu/2024/papers/Paper77.html
+Keywords:
+Abstract: Both entropy-minimizing and entropy-maximizing objectives for unsupervised reinforcement learning (RL) have been shown to be effective in different environments, depending on the environment's level of natural entropy. However, neither method alone results in an agent that will consistently learn intelligent behavior across environments. In an effort to find a single entropy-based method that will encourage emergent behaviors in any environment, we propose an agent that can adapt its objective online, depending on the entropy conditions it faces in the environment, by framing the choice as a multi-armed bandit problem. We devise a novel intrinsic feedback signal for the bandit, which captures the agent's ability to control the entropy in its environment. We demonstrate that such agents can learn to optimize task returns through entropy control alone in didactic environments for both high- and low-entropy regimes and learn skillful behaviors in certain benchmark tasks.               
+
+Research goal:
+Empirical: yes
+Algorithms: Other
+Seeds: 5
+Code: yes
+Env: yes
+Hyperparameters: in appendix
+
+
+### SwiftTD: A Fast and Robust Algorithm for Temporal Difference Learning
+Link: https://rlj.cs.umass.edu/2024/papers/Paper111.html
+Keywords:
+Abstract: Learning to make temporal predictions is a key component of reinforcement learning algorithms. The dominant paradigm for learning predictions from an online stream of data is Temporal Difference (TD) learning. In this work we introduce a new TD algorithm---SwiftTD---that learns more accurate predictions than existing algorithms. SwiftTD combines True Online TD() with per-feature step-size parameters, step-size optimization, a bound on the update to the eligibility vector, and step-size decay. Per-feature step-size parameters and step-size optimization improve credit assignment by increasing the step-size parameters of important signals and reducing them for irrelevant signals. The bound on the update to the eligibility vector prevents overcorrections. Step-size decay reduces step-size parameters if they are too large. We benchmark SwiftTD on the Atari Prediction Benchmark and show that even with linear function approximation it can learn accurate predictions. We further show that SwiftTD performs well across a wide range of its hyperparameters. Finally, we show that SwiftTD can be used in the last layer of neural networks to improve their performance.               
+
+Research goal:
+Empirical: no
+Algorithms: NA
+Seeds: NA
+Code: NA
+Env: NA
+Hyperparameters: NA
+
+
+### The Cliff of Overcommitment with Policy Gradient Step Sizes
+Link: https://rlj.cs.umass.edu/2024/papers/Paper115.html
+Keywords:
+Abstract: Policy gradient methods form the basis for many successful reinforcement learning algorithms, but their success depends heavily on selecting an appropriate step size and many other hyperparameters. While many adaptive step size methods exist, none are both free of hyperparameter tuning and able to converge quickly to an optimal policy. It is unclear why these methods are insufficient, so we aim to uncover what needs to be addressed to make an effective adaptive step size for policy gradient methods. Through extensive empirical investigation, the results reveal that when the step size is above optimal, the policy overcommits to sub-optimal actions leading to longer training times. These findings suggest the need for a new kind of policy optimization that can prevent or recover from entropy collapses.               
+
+Research goal:
+Empirical: yes
+Algorithms: NA
+Seeds: 20
+Code: no
+Env: custom
+Hyperparameters: in appendix
+
+
+### The Limits of Pure Exploration in POMDPs: When the Observation Entropy is Enough
+Link: https://rlj.cs.umass.edu/2024/papers/Paper95.html
+Keywords:
+Abstract: The problem of pure exploration in Markov decision processes has been cast as maximizing the entropy over the state distribution induced by the agent's policy, an objective that has been extensively studied. However, little attention has been dedicated to state entropy maximization under partial observability, despite the latter being ubiquitous in applications, e.g., finance and robotics, in which the agent only receives noisy observations of the true state governing the system's dynamics. How can we address state entropy maximization in those domains? In this paper, we study the simple approach of maximizing the entropy over observations in place of true latent states. First, we provide lower and upper bounds to the approximation of the true state entropy that only depends on some properties of the observation function. Then, we show how knowledge of the latter can be exploited to compute a principled regularization of the observation entropy to improve performance. With this work, we provide both a flexible approach to bring advances in state entropy maximization to the POMDP setting and a theoretical characterization of its intrinsic limits.               
+
+Research goal:
+Empirical: no
+Algorithms: NA
+Seeds: 16
+Code: no
+Env: custom
+Hyperparameters: in appendix
+
