@@ -54,11 +54,13 @@ class OpenReviewScraper(ConferenceScraper):
 
     def _get_paper_links(self, year: int) -> List[Dict[str, str]]:
         if year >= self.api_cutoff_year:
-            client= openreview.api.OpenReviewClient(baseurl='https://api2.openreview.net')
+            client = openreview.api.OpenReviewClient(
+                baseurl="https://api2.openreview.net"
+            )
         else:
-            client = openreview.Client(baseurl='https://api.openreview.net')
+            client = openreview.Client(baseurl="https://api.openreview.net")
         venue = self.get_venue(client, year)
-        papers =  client.get_all_notes(content={'venueid': venue})
+        papers = client.get_all_notes(content={"venueid": venue})
         paper_infos = []
         try:
             for paper in papers:
@@ -122,7 +124,10 @@ class NeurIPSScraper(OpenReviewScraper):
     api_cutoff_year = 2023
 
     def get_conference_urls(self, start_year: int) -> List[str]:
-        earlier = [f"https://papers.nips.cc/paper_files/paper/{year}" for year in range(start_year, 2021)]
+        earlier = [
+            f"https://papers.nips.cc/paper_files/paper/{year}"
+            for year in range(start_year, 2021)
+        ]
         later = [
             f"https://api.openreview.net/notes?content.venue=NeurIPS+{year}+Conference&details=replyCount&offset=0&limit=1000&invitation=NeurIPS.cc/{year}/"
             for year in range(2021, 2024)
@@ -145,23 +150,23 @@ class NeurIPSScraper(OpenReviewScraper):
                 papers = []
                 response = self.session.get(conference_url)
                 if response.status_code == 404:
-                        print(f"Conference URL not found: {conference_url}")
-                        return papers
+                    print(f"Conference URL not found: {conference_url}")
+                    return papers
 
                 soup = BeautifulSoup(response.text, "html.parser")
 
                 for paper in soup.find_all("li", class_="none"):
-                        title = paper.a.getText()
-                        paper_id = paper.a.get("href").title().split("/")[-1].split("-")[0]
-                        pdf_link = f"https://proceedings.neurips.cc/paper_files/paper/{year}/file/{paper_id.lower()}-Paper.pdf"
+                    title = paper.a.getText()
+                    paper_id = paper.a.get("href").title().split("/")[-1].split("-")[0]
+                    pdf_link = f"https://proceedings.neurips.cc/paper_files/paper/{year}/file/{paper_id.lower()}-Paper.pdf"
 
-                        papers.append(
-                                    {
-                                        "title": title,
-                                        "pdf_url": pdf_link,
-                                        "year": str(year),
-                                    }
-                                )
+                    papers.append(
+                        {
+                            "title": title,
+                            "pdf_url": pdf_link,
+                            "year": str(year),
+                        }
+                    )
 
             except Exception as e:
                 print(f"Error scraping NeurIPS {year} {conference_url}: {str(e)}")
@@ -173,7 +178,10 @@ class ICLRScraper(OpenReviewScraper):
     api_cutoff_year = 2024
 
     def get_conference_urls(self, start_year: int) -> List[str]:
-        earlier = [f"https://iclr.cc/Conferences/{year}/Schedule?type=Poster" for year in range(start_year, 2021)]
+        earlier = [
+            f"https://iclr.cc/Conferences/{year}/Schedule?type=Poster"
+            for year in range(start_year, 2021)
+        ]
         later = [
             f"https://api.openreview.net/notes?content.venue=ICLR+{year}+Conference&details=replyCount&offset=0&limit=1000&invitation=ICLR.cc/{year}/Conference/-/Blind_Submission"
             for year in range(2021, 2026)
@@ -196,8 +204,8 @@ class ICLRScraper(OpenReviewScraper):
                 papers = []
                 response = self.session.get(conference_url)
                 if response.status_code == 404:
-                        print(f"Conference URL not found: {conference_url}")
-                        return papers
+                    print(f"Conference URL not found: {conference_url}")
+                    return papers
 
                 soup = BeautifulSoup(response.text, "html.parser")
 
@@ -207,16 +215,17 @@ class ICLRScraper(OpenReviewScraper):
                     pdf_link = pdf_link_elem.a["href"].replace("forum", "pdf")
 
                     papers.append(
-                                    {
-                                        "title": title,
-                                        "pdf_url": pdf_link,
-                                        "year": str(year),
-                                    }
-                                )
+                        {
+                            "title": title,
+                            "pdf_url": pdf_link,
+                            "year": str(year),
+                        }
+                    )
 
             except Exception as e:
                 print(f"Error scraping NeurIPS {year} {conference_url}: {str(e)}")
             return papers
+
 
 class ICMLScraper(ConferenceScraper):
     conference_name = "icml"
